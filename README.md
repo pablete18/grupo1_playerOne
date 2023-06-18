@@ -1,15 +1,89 @@
 
-# *****✨grupo1_playerOne✨*****
-#### Nuestro objetivo es proporcionar a los gamers la mejor experiencia posible, tanto en términos de hardware como de comunidad. A través de nuestro sitio web, podrás acceder a contenido exclusivo, guías de configuración, reseñas de productos y participar en discusiones con otros gamers.
+#  ******✨ `Grupo1` _playerOne_ ✨******
+```
+Nuestro objetivo es proporcionar a los gamers la mejor experiencia posible, tanto en términos de hardware como de comunidad. A través de nuestro sitio web, también podrás acceder a contenido exclusivo, guías de configuración, reseñas de productos y participar en discusiones con otros gamers.
+```
+***
+***
 
-### *****///DESCRIPCIÓN DEL PÚBLICO AL QUE APUNTA EL SITIO///*****
-#### El sitio de venta de productos gamer y equipos de competencia está dirigido a jugadores apasionados de todas las edades que buscan productos de alta calidad para mejorar su experiencia de juego. Además, ofrece la oportunidad de unirse a su propio equipo de competencia y participar en torneos y eventos.
+### **DESCRIPCIÓN DEL PÚBLICO AL QUE APUNTA EL SITIO**
+
+```
+El sitio de venta de productos gamer y equipos de competencia está dirigido a jugadores apasionados de todas las edades que buscan productos de alta calidad para mejorar su experiencia de juego. Además, ofrecemos la oportunidad de unirse a su propio equipo de competencia y participar en torneos y eventos.
+```
+***
+***
+
+### **DESCRIPCIÓN DE LOS INTEGRANTES DEL GRUPO**
+
+```
+* Gonzalo Sotelo    - 29 Años       - Buenos Aires - Argentina 
+* Lucas Nuñez       - 29 Años       - Buenos Aires - Argentina 
+* Pablo Alcaraz     - 31 Años       - Córdoba Capital - Argentina
+* Federico Villalba - 44 Años       - Córdoba Capital - Argentina
+```
+
+### **SITIOS DE REFERENCIA**
 
 
-### *****///DESCRIPCIÓN DE LOS INTEGRANTES DEL GRUPO///*****
+https://www.maximus.com.ar/
+```
+Este sitio se eligió por la estétita y por los tipos de productos que ofrecen. También tomamos como referencia la funcionalidad para pasar a modo oscuro.
+```
 
-- Gonzalo Sotelo 29 Años  - Buenos Aires - Argentina 
-- Pablo Alcaraz  31 Años  - Córdoba Capital - Argentina
-- Lucas Nuñez  29 Años  - Buenos Aires - Argentina 
-- Federico Villalba 44 Años - Córdoba Capital - Argentina
+https://www.venex.com.ar/
+```
+Este sitio lo elegimos porque dado que disponíamos de cuenta y experiencia de cliente dentro del mismo.
+```
 
+https://www.gezatek.com.ar/
+
+```
+Este sitio fue elegido debido a que se dispone de un armador personalizado de PC Gamer.
+```
+
+https://www.makkax.com/
+```
+Este sitio se tomo como referencia para formulario de Login y Registración.
+```
+
+https://www.fullh4rd.com.ar/
+```
+Este sitio lo seleccionamos por la funcionalidad de barra de búsquedas y principalmente por Reviews de Productos y Noticias.
+```
+
+#### Otros sitios consultados para poder tomar como referencia o fuente de inspiración fueron:
+
+https://www.razer.com/
+
+https://www.tecnoeshopcba.com/
+
+https://www.qossi.com.ar/
+
+https://compucordoba.com.ar/computadoras
+
+https://www.stylestore.com.ar/mundo-gaming
+
+https://www.mymcomputacion.com/
+
+https://www.gameplanet.com.ar/
+
+https://nzxt.com/en-DE/collection/player-one
+
+https://compragamer.com/
+
+https://www.fravega.com/l/informatica/gaming-pc/
+
+https://www.tienda.gamingcity.com.ar/
+
+https://matrixcomputacion.com/
+
+https://www.newegg.com/
+
+https://www.gamestop.com/
+
+https://ecommercesantafe.com.ar/categorias/auriculares/au-gamer/
+
+https://www.tematika.com/ready-player-one-9789876272902.html
+
+https://www.nextclick.com.ar/ARTICULOS/Gaming/CAT_ID=64/m=0/BUS=;/next_click_electronica.aspx
