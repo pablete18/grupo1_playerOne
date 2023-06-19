@@ -31,12 +31,13 @@ El sitio de venta de productos gamer y equipos de competencia está dirigido a j
 ### **DESCRIPCIÓN DE LOS INTEGRANTES DEL GRUPO**
 
 ```
-* Gonzalo Sotelo    - 29 Años       - Buenos Aires - Argentina 
-* Lucas Nuñez       - 29 Años       - Buenos Aires - Argentina 
-* Pablo Alcaraz     - 31 Años       - Córdoba Capital - Argentina
-* Federico Villalba - 44 Años       - Córdoba Capital - Argentina
+👋 Gonzalo Sotelo    - 29 Años       - Buenos Aires - Argentina 
+👋 Lucas Nuñez       - 29 Años       - Buenos Aires - Argentina 
+👋 Pablo Alcaraz     - 31 Años       - Córdoba Capital - Argentina
+👋 Federico Villalba - 44 Años       - Córdoba Capital - Argentina
 ```
-
+---
+---
 ### **SITIOS DE REFERENCIA**
 
 
@@ -67,7 +68,7 @@ https://www.fullh4rd.com.ar/
 Este sitio lo seleccionamos por la funcionalidad de barra de búsquedas.
 A su vez fue elegido como referencia por Reviews de Productos y Noticias.
 ```
-
+---
 #### Otros sitios consultados para poder tomar como referencia o fuente de inspiración fueron:
 
 https://www.razer.com/
