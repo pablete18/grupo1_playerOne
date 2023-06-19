@@ -64,7 +64,8 @@ Este sitio se tomo como referencia para formulario de Login y Registración.
 
 https://www.fullh4rd.com.ar/
 ```
-Este sitio lo seleccionamos por la funcionalidad de barra de búsquedas y por Reviews de Productos y Noticias.
+Este sitio lo seleccionamos por la funcionalidad de barra de búsquedas.
+A su vez fue elegido como referencia por Reviews de Productos y Noticias.
 ```
 
 #### Otros sitios consultados para poder tomar como referencia o fuente de inspiración fueron:
