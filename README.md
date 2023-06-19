@@ -1,16 +1,30 @@
+<div align="center">
 
-#  ******✨ `Grupo1` _playerOne_ ✨******
-```
+#  ******✨ `Grupo1` ✨******
+
+</div>
+
+![playerOne](./logo/logoBarra.png)
+
+
+<div align="justify">
+
 Nuestro objetivo es proporcionar a los gamers la mejor experiencia posible, tanto en términos de hardware como de comunidad. A través de nuestro sitio web, también podrás acceder a contenido exclusivo, guías de configuración, reseñas de productos y participar en discusiones con otros gamers.
-```
+
+</div>
+
 ***
 ***
 
 ### **DESCRIPCIÓN DEL PÚBLICO AL QUE APUNTA EL SITIO**
 
-```
+<div align="justify">
+
 El sitio de venta de productos gamer y equipos de competencia está dirigido a jugadores apasionados de todas las edades que buscan productos de alta calidad para mejorar su experiencia de juego. Además, ofrecemos la oportunidad de unirse a su propio equipo de competencia y participar en torneos y eventos.
-```
+
+</div>
+
+
 ***
 ***
 
@@ -28,7 +42,8 @@ El sitio de venta de productos gamer y equipos de competencia está dirigido a j
 
 https://www.maximus.com.ar/
 ```
-Este sitio se eligió por la estétita y por los tipos de productos que ofrecen. También tomamos como referencia la funcionalidad para pasar a modo oscuro.
+Este sitio se eligió por la estétita y por los tipos de productos que ofrecen.
+También tomamos como referencia la funcionalidad para pasar a modo oscuro.
 ```
 
 https://www.venex.com.ar/
