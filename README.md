@@ -69,7 +69,9 @@ Este sitio lo seleccionamos por la funcionalidad de barra de búsquedas.
 A su vez fue elegido como referencia por Reviews de Productos y Noticias.
 ```
 ---
-#### Otros sitios consultados para poder tomar como referencia o fuente de inspiración fueron:
+
+<details>
+ <summary> ⚡ Lista de Otros Sitios Visitados ⚡</summary>
 
 https://www.razer.com/
 
@@ -104,3 +106,5 @@ https://ecommercesantafe.com.ar/categorias/auriculares/au-gamer/
 https://www.tematika.com/ready-player-one-9789876272902.html
 
 https://www.nextclick.com.ar/ARTICULOS/Gaming/CAT_ID=64/m=0/BUS=;/next_click_electronica.aspx
+
+</details>
