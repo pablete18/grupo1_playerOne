@@ -4,7 +4,7 @@
 
 </div>
 
-![playerOne](./logo/logoBarra.png)
+![playerOne](./public/img/logoBarra.png)
 
 
 <div align="justify">
