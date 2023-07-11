@@ -1,0 +1,30 @@
+:root {
+    --colorNegro : #000;
+    
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    font-family: 'roboto';
+    background: var(--colorNegro);
+    
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
