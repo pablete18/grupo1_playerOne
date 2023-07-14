@@ -1,7 +1,17 @@
 :root {
-    --colorNegro : #000;
-    
-
+    /* MODO OSCURO */
+    --nyanza: #DFFEE0;
+    --resedagreen: #708E70;
+    --green:#01F603;
+    --forestgreen:#019A02;
+    --darkgreen:#001F00;
+    /* MODO CLARO */
+    --platinum:#D8DBE2;
+    --powberblue:#A9BCD0;
+    --azure:#1883FA;
+    --folly:#FC304D;
+    --charcoal:#373F51;
+    --eerieblack: #1B1B1E;
 }
 
 *{
@@ -12,19 +22,17 @@
 
 
 body{
-
-    font-family: 'roboto';
-    background: var(--colorNegro);
-    
-    
+font-family: 'roboto';
+background: var(--colorNegro);
 }
 
 li{
     list-style-type: none;
+    color: #ffffff;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
