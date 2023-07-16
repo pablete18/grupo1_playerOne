@@ -12,7 +12,11 @@ app.use(express.static('public'))
 /* RUTAS  */
 app.get('/', (req, res)=> res.sendFile(path.join(__dirname, 'views', 'home.html')))
 
+app.get('/detalleProducto', (req, res) => res.sendFile(path.join(__dirname, "views","productDetail.html")))
+
 app.get('/*', (req, res) => res.sendFile(path.join(__dirname, "views", "404.html")) )
+
+
 
 
 /* LEVANTA SERVIDOR  */
