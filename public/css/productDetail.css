@@ -47,7 +47,10 @@ body{
     -webkit-text-stroke: 1px black;
     font-size: 3em;
     color: var(--colorVerde);
-     
+    
+}
+.main__div__section__preciosybotones__div--productbuttons__section{
+    display: none;
 }
 .main__div__section__precioybotones__div--productbuttons{
     display: flex;
@@ -67,6 +70,8 @@ body{
 .main__section--especificaciones{
     background-color: var(--colorGrisClaro);
     padding: 10px;
+    width: 100%;
+    margin: 0;
 }
 
 .main__section--especificaciones h2{
@@ -120,6 +125,28 @@ body{
     justify-content: space-around;
     text-align: center;
 }
+.main__div__section__preciosybotones__div--productbuttons__section{
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+.main__div__section__preciosybotones__div--productbuttons__section p{
+    background-color: var(--colorGrisClaro);
+    text-align: center;
+    border: solid 2px;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 10px 80px;
+
+}
+.main__div__section__precioybotones__div--productbuttons #boton{
+    background-color: var(--colorGrisClaro);
+    width: 50px;
+    color: black;
+    margin: 0;
+    border-radius: 0%;
+    ;
     
 }
 /* DESKTOP */
@@ -169,7 +196,30 @@ body{
     justify-content: space-around;
     text-align: center;
 }
+.main__div__section__preciosybotones__div--productbuttons__section{
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+
+}
+.main__div__section__preciosybotones__div--productbuttons__section p{
+    background-color: var(--colorGrisClaro);
+    text-align: center;
+    border: solid 2px;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 26px 200px;
+
+}
+.main__div__section__precioybotones__div--productbuttons #boton{
+    background-color: var(--colorGrisClaro);
+    width: 50px;
+    color: black;
+    margin: 0;
+    border-radius: 0%;
+    ;
     
+}
 }
 
 
@@ -187,4 +237,4 @@ body{
 
 @media (min-width: 1280px) {
     
-}
+}}
