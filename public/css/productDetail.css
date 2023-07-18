@@ -154,8 +154,8 @@ body{
     
 }
 /* DESKTOP */
-@media (min-width: 1280px) {
-    .main__div--product{
+@media (min-width: 1024px) {
+.main__div--product{
         display: flex;
         flex-direction: row;
         margin:10px;

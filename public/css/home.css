@@ -18,15 +18,13 @@
 /* MAIN */
 
 /* MOBILE */
-@media (min-width: 481px) {
 
-}
 /* TABLET */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     
 }
 /* DESKTOP */
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
     
 }
 
