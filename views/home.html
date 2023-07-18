@@ -11,10 +11,49 @@
 
 <body class="home">
 
+    <header class="header-home">
+        <div class="header-top">
+        <figure>
+          <a href="/"><img src="/img/logoBarra.png" alt="logo" /></a>
+        </figure>
+    
+     
+        <div class="header-burger">
+          <button class="header--bars" onclick="document.querySelector('.header-menu').classList.toggle('showMenu')">
+              <i class="fas fa-bars fa-lg"></i>
+          </button>
+        </div>
+        <form action="/" class="header--seach">
+          <input type="text" placeholder=" ¿ Que estas buscando ?" />
+          <button><i class="fas fa-search"></i></button>
+        </form>
+        <nav class="header-login">
+          <ul>
+            <li>
+              <a href="/creatucuenta"><img src="/img/logocuenta.png" alt="cuenta"></a>
+            </li>
+            <li>
+              <a href="/miscompras"><img src="/img/logocarrito.png" alt="carrito"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+            <nav class="header-menu">
+              <ul>
+                <div class="menu_movile-login">
+                  <li><a href="/creatucuenta"><i class="fas fa-user-circle"></i></a></li>
+                <li><a href="/miscompras"><i class="fas fa-shopping-basket"></i></a></li>
+                </div>
+                <li><a href="/armatupc">Arma Tu Pc</a></li>
+                <li><a href="/accesorios">Accesorios</a></li>
+                <li><a href="/pantallas">Pantallas</a></li>
+                <li><a href="/sillas">Sillas</a></li>
+                <li><a href="/nuestroteam">Nuestro Team</a></li>
+                <li><a href="/contactanos">Contactanos</a></li>
+              </ul>
+            </nav>
+      </header>
 
-    <header class="home__header">
-
-    </header>
 
     <main class="home__main">
         <div class="main__div__banner">
