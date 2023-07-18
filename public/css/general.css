@@ -5,6 +5,10 @@
     --colorVerde:#01F603;
     --colorVerdeClaro:#019A02;
     --colorVerdeOscuro: #001F00;
+    --fuente1: 'Quicksand', sans-serif;
+    --fuente2: 'Righteous', cursive;
+    --fuente3: 'Source Sans 3', sans-serif;
+
 
 
 }
@@ -17,8 +21,7 @@
 
 
 body{
-
-font-family: 'roboto';
+background-color: var(--colorNegro);
 
 }
 
