@@ -24,10 +24,12 @@ body{
 }
 
 .main__div__section--titleproduct{
+    font-family: var(--fuente3);
     text-align: center;
     margin: 10px;
 }
 .main__div__section--titleproduct h1{
+    
     border-bottom: 1px solid var(--colorVerde);
     margin: 10px 40px;
 }
@@ -40,6 +42,7 @@ body{
 }
 .main__div__section__precioybotones{
     margin: 20px;
+    font-family: var(--fuente1);
 }
 .main__div__section__precioybotones__h2--precio{
     text-align: center;
@@ -69,6 +72,7 @@ body{
 }
 .main__section--especificaciones{
     background-color: var(--colorGrisClaro);
+    font-family: var(--fuente1);
     padding: 10px;
     width: 100%;
     margin: 0;
@@ -85,7 +89,7 @@ body{
 }
 
 /* TABLET */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .main__div--product{
         display: flex;
         flex-direction: row;
