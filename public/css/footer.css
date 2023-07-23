@@ -13,7 +13,7 @@
 }
 .titulos-footer i{
     color: var(--colorGrisClaro);
-    margin-top: 17px;
+    /* margin-top: 17px; */
     margin: 0 4%;
 }
 .titulos-footer h4{
@@ -30,7 +30,7 @@
 .redes{
     color: var(--colorGrisOscuro);
     text-align: center;
-    padding: 7px;
+    /* padding: 7px; */
 }
     .footer-opciones{
         display: flex;
@@ -45,7 +45,7 @@
 @media (min-width: 768px) {
 
     }
-}
+
 
 @media (min-width: 1024px) {
     
