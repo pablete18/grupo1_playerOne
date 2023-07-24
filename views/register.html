@@ -66,34 +66,30 @@
 
             <div class="form-container">
                 <div class="input-group">
-                    <label for="correo">Ingresar Correo</label>
-                    <input type="mail" id="correo" placeholder="Correo electrónico">
+                    <label for="correo">Nombre de Usuario o Correo</label>
+                    <input type="text" id="correo" placeholder="Correo electrónico" required>
                 </div>
                 <div class="input-group">
                     <label for="clave">Ingresar Clave</label>
-                    <input type="password" id="clave" placeholder="Contraseña">
+                    <input type="password" id="clave" placeholder="Contraseña" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="clave2">Repetir Clave</label>
+                    <input type="password" id="clave2" placeholder="Repita Contraseña" required>
                 </div>
                 
-                <div class="input-group-remember">
-                    <input type="checkbox" id="remember-pass">
-                    <label for="remember-pass">Recordar Contraseña</label>
+                <div class="input-group-terms">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">Acepta los Términos, Condiciones y Políticas de playerOne</label>
                 </div>
                 
-                <div class="forgot-password">
-                    <a href="#">Olvide mi Clave</a>
-                </div>
+            
                 <button class="login-button">LOGIN</button>
 
             </div>
 
-            <div class="register-container">
-                <p>¿Aún no tienes cuenta?</p>
-                <a href="/registro">
-                    <h3>Registrate</h3>
-                </a>
-
-
-            </div>
+            
 
             <div class="other-options">
                 <p>o continúa con</p>
