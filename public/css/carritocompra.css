@@ -1,0 +1,153 @@
+.body__carrito{}
+.carrito__main{
+    background-color:  black;
+}
+.carrito__main-cont{
+    display: flex;
+}
+.carrito__main-cont ul {display: none;}
+.carrito__main-cont li {}
+.carrito__pruductos {}
+.carrito__productos-article {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    margin: 5px 12px;
+    box-shadow: -8px 0px 5px -1px #01F603;
+}
+.producto__img{
+    /* margin-right: 10px; */
+    /* box-shadow: -5px 0 8px 0px #01F603; */
+}
+.producto__img img{
+    height: 3em;
+    margin: 10px;
+}
+.producto__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.producto__titulo{
+    margin: 0;
+}
+.producto__descripcion{
+    flex: 1;
+    margin: 0;
+}
+.producto__precio{
+    margin: 0;
+}
+.producto__cantidad-cont{
+    display: flex;
+    align-items: center;
+}
+.producto__cantidad-cont button{background-color: gray;border: solid 1px black;text-align: center;}
+.producto__total{
+    margin-left: 10px;
+}
+.main__envios{
+    display: inline-flex;
+    place-content: flex-start;
+}
+.main__envios h3{
+    color: #ffffff;
+    text-align: revert;
+    font-size: medium;
+    font-family: var(--fuente1);
+    font-weight: 100;
+}
+.main__envios p{
+    font-family: var(--fuente1);
+    font-size: x-small;
+    color: #ffffff;
+    font-weight: 100;
+}
+.main__envios button {
+    background-color: var(--colorGrisOscuro);
+    border: solid 2px var(--colorVerde);
+    border-radius: 10%;
+    width: 4em;
+    font-size: smaller;
+    height: 1.5em;
+    color: #ffffff;
+    display: inline;
+    margin: 9px;
+}
+.aside{
+    background-color: var(--colorNegro);
+}
+.aside__section{
+}
+.aside__section-envios{
+    background-color: gray;
+    display: flex;
+}
+.aside__section-envios h2 {
+    font-family: var(--fuente1);
+    font-weight: 400;
+}
+.aside__envios-cp{
+    display: none;
+}
+.flecha{
+    background-color: gray;
+    border: solid 1px var(--colorVerde);
+    margin: 5px;
+}
+.aside__envios-cp input{}
+.aside__section-envios img{
+    height: 1em;
+    display: none;
+    width: 4em;
+}
+.aside__envios-dom{
+    display: none;
+}
+.aside__envios-precio1{
+    display: none;
+}
+.aside__envios-sucursal{
+    display: none;
+}
+.aside__envios-precio2{
+    display: none;
+}
+.aside__section-descuentos{
+    background-color: gray;
+    display: flex;
+    justify-content: flex-start;
+}
+.aside__section-descuentos h2{
+    font-family: var(--fuente1);
+    font-weight: 400;
+}
+.aside__section-descuentos button {}
+.aside__section-descuentos h5{
+    display: none;
+}
+.aplicar{
+    display: none;
+}
+.aside__section-descuentos form {}
+.aside__section-descuentos button{}
+.aside__section-pagos{
+    background-color: gray;
+    display: flex;
+    justify-content: flex-start;
+}
+.aside__section-pagos h2{
+    font-family: var(--fuente1);
+    font-weight: 400;
+}
+.aside__section-pagos form{
+    display: none;
+}
+.aside__section-pagos h5 {
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family: var(--fuente1);
+    font-weight: 900;
+}

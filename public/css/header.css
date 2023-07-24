@@ -4,9 +4,7 @@ header {
     padding-bottom: 0.2em;
     width: 100%;
  }
- main {
-    padding-top: 100px;
-}
+ main {border: solid 7px black;}
 .header-top{
     display: flex;
     flex-wrap: wrap;
