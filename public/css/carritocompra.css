@@ -97,9 +97,7 @@
 }
 .aside__envios-cp input{}
 .aside__section-envios img{
-    height: 1em;
     display: none;
-    width: 4em;
 }
 .aside__envios-dom{
     display: none;
@@ -137,6 +135,7 @@
     justify-content: flex-start;
 }
 .aside__section-pagos h2{
+
     font-family: var(--fuente1);
     font-weight: 400;
 }
@@ -152,5 +151,54 @@
     font-weight: 900;
 }
 @media (min-width: 768px) {
-    
+    .flecha {
+        display: none;
+    }
+
+    .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carrito__main {
+  flex: 1;
+  min-width: 0;
+}
+
+.aside {
+  flex: 1;
+  min-width: 0;
+}
+.aside__section-envios img{
+    height: 1em;
+    display: block;
+    width: 4em;
+}
+.aside__envios-dom{
+    display: block;
+}
+.aside__envios-precio1{
+    display: block;
+}
+.aside__envios-sucursal{
+    display: block;
+}
+.aside__envios-precio2{
+    display: block;
+}
+.aside__section-descuentos h5{
+    display: block;
+}
+.aplicar{
+    display: block;
+}
+.aside__section-pagos form{
+    display: block;
+}
+.aside__section-envios {
+    display: block;
+}
+.aside__section {
+    display: block;
+}
 }
