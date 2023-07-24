@@ -32,11 +32,12 @@ El sitio de venta de productos gamer y equipos de competencia está dirigido a j
 
 ```
 👋 Gonzalo Sotelo    - 29 Años       - Buenos Aires - Argentina 
-👋 Lucas Nuñez       - 29 Años       - Buenos Aires - Argentina 
 👋 Pablo Alcaraz     - 31 Años       - Córdoba Capital - Argentina
 👋 Federico Villalba - 44 Años       - Córdoba Capital - Argentina
 ```
 ---
+### **NUESTRA PAGINA**
+https://playeroneg1.onrender.com/
 ---
 ### **SITIOS DE REFERENCIA**
 
