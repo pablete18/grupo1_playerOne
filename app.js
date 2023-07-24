@@ -14,7 +14,7 @@ app.get('/', (req, res)=> res.sendFile(path.join(__dirname, 'views', 'home.html'
 app.get('/header', (req, res)=> res.sendFile(path.join(__dirname, 'views','partial', 'header.html')))
 app.get('/footer', (req, res)=> res.sendFile(path.join(__dirname, 'views','partial', 'footer.html')))
 app.get('/carritocompras', (req, res) => res.sendFile(path.join(__dirname, "views","carritocompras.html")))
-app.get('/detalleProducto', (req, res) => res.sendFile(path.join(__dirname, "views","productDetail.html")))
+app.get('/detalleProducto', (req, res) => res.sendFile(path.join(__dirname, "views","productD.html")))
 app.get('/*', (req, res) => res.sendFile(path.join(__dirname, "views", "404.html")) )
 
 
