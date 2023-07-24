@@ -191,6 +191,7 @@ main{
     font-size: 10px;
     align-items: flex-start;
     height: 20%;
+    margin: 10px
 }
 .main__div__section__precioybotones__h2--precio{
     background-color: var(--colorGrisClaro);
@@ -199,7 +200,7 @@ main{
     border-radius: 10px;
 }
 .main__div__section__precioybotones{
-    margin: 0;
+    margin: 30px;
      
 }
 .main__section--especificacion__div{
@@ -211,6 +212,7 @@ main{
     display:flex;
     justify-content: center;
     align-items: stretch;
+    
 
 }
 .main__div__section__preciosybotones__div--productbuttons__section p{

@@ -18,8 +18,9 @@
 }
 
 
-body{
-background-color: var(--colorNegro);
+body{ 
+    background-color: var(--colorNegro);
+    padding-top: 100px;
 
 }
 
