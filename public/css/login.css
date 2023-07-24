@@ -17,7 +17,7 @@ body {
     justify-content: center;
     padding: 10px;
     position: relative;
-    z-index: -1;   
+    z-index: 1;   
 }
 
 .logo-container {
@@ -47,6 +47,7 @@ body {
 }
 
 .input-group label {
+    color: #fff;
     margin-bottom: 5px;
     font-family: var(--fuente1);
     font-weight: 700;
@@ -152,6 +153,34 @@ body {
 }
 
 /* TABLET */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
    
+    .login__main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .logo-container {
+        flex: 1;
+        min-width: 0;
+        width: 40%;    
+    }
+
+    .logo-container img{
+        width: 40%;
+
+    }
+    
+
+    .content-container {
+        flex: 1;
+        min-width: 0;     
+        
+    }
+
+    .form-container {
+        margin-top: 20px;
+    }
+    
 }

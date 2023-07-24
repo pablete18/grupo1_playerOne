@@ -15,17 +15,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    /* padding: 0px; */
     position: relative;
-    z-index: -1;   
+    /* z-index: -1;    */
 }
 
 .logo-container {
     width: 100%;
-    margin-top: 30%;
-    margin-bottom: 14px;
+    /* margin-top: 30%; */
+    /* margin-bottom: 14px; */
     box-sizing: border-box;
     text-align: center;
+    margin: 0px 0px 20px 0px;
 }
 
 .logo-container img {
@@ -90,7 +91,7 @@ body {
 }
 
 .login-button {
-    padding: 15px 20px;
+    padding: 14px 20px;
     background: linear-gradient(to bottom, var(--colorVerde) 8%, #888 80%);
     color: var(--colorNegro);
     border: none;
@@ -155,4 +156,35 @@ body {
 /* TABLET */
 @media (min-width: 769px) {
    
+    .register__main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .logo-container {
+        flex: 1;
+        min-width: 0;
+        width: 40%;
+    }
+
+    .logo-container img{
+        width: 100%;
+        height: 450px;
+    }
+    
+
+    .content-container {
+        flex: 1;
+        min-width: 0;     
+        
+    }
+
+    .form-container {
+        margin-top: 20px;
+    }
+
+
+
+
 }
