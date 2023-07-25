@@ -95,7 +95,13 @@
     border: solid 1px var(--colorVerde);
     margin: 5px;
 }
-.aside__envios-cp input{}
+.aside__envios-cp input{
+    border-radius: 9%;
+    height: 19px;
+    width: 96px;
+    border: none;
+    margin: 4px 0px 7px 27px;
+}
 .aside__section-envios img{
     display: none;
 }
@@ -131,8 +137,8 @@
 .aside__section-descuentos button{}
 .aside__section-pagos{
     background-color: gray;
-    display: flex;
-    justify-content: flex-start;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 .aside__section-pagos h2{
 
@@ -145,7 +151,7 @@
 .aside__section-pagos h5 {
     align-items: center;
     display: flex;
-    margin-left: 5px;
+    margin-left: 67px;
     font-size: 16px;
     font-family: var(--fuente1);
     font-weight: 900;
@@ -173,6 +179,7 @@
     height: 1em;
     display: block;
     width: 4em;
+    margin-left: 42%;
 }
 .aside__envios-dom{
     display: block;
@@ -188,17 +195,68 @@
 }
 .aside__section-descuentos h5{
     display: block;
+    text-align: center;
 }
 .aplicar{
     display: block;
 }
 .aside__section-pagos form{
     display: block;
+    font-size: small;
+    margin-left: 6px;
 }
 .aside__section-envios {
     display: block;
 }
 .aside__section {
+    /* display: block; */
+    margin: 12px 12px;
+}
+.correoargentino{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.correooca{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.aside__section-envios h2 {
+
+text-align: center;
+}
+.aside__envios-cp {
     display: block;
+    margin-left: 28%;
+}
+.aside__section-descuentos {
+    display: flex;
+    flex-direction: column;
+}
+.aside__section-descuentos h2 {
+    text-align: center;
+}
+.aside__section-descuentos button {
+    
+width: 50px;
+    
+height: 23px;
+    
+border-radius: 11%;
+    
+border: none;
+    
+margin-left: 41%;
+    
+margin-bottom: 12px;
+}
+.aside__section-pagos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.aside__section-pagos h2 {
+    margin-left: 22%;
+    margin-bottom: 3px;
 }
 }
