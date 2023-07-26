@@ -13,15 +13,14 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 
 
-body{ 
+body{
     background-color: var(--colorNegro);
-    padding-top: 100px;
-
+    /* padding-top: 100px; */
 }
 
 li{

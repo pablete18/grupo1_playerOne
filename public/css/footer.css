@@ -20,7 +20,9 @@
     color: var(--colorVerdeClaro);
     margin: 14px 0;
 }
-.titulos-footer ul{}
+.titulos-footer ul{
+    padding: 0;
+}
 .titulos-footer li{
     padding: 7px;
 }
@@ -34,6 +36,7 @@
 }
     .footer-opciones{
         display: flex;
+        flex-wrap: wrap;
     }
     .titulos-footer {
         display: inline-block;
@@ -44,6 +47,9 @@
     
 @media (min-width: 768px) {
 
+    .footer-opciones {
+        flex-wrap: nowrap;
+    }
     }
 
 

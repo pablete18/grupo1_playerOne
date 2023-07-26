@@ -1,9 +1,11 @@
 header {
-    position: fixed;
+    position: sticky;
     background: radial-gradient(circle, rgba(1,246,3,1) 0%, rgba(223,254,224,0) 100%);
     padding-bottom: 0.2em;
     width: 100%;
-    margin-top: -100px;
+    top: 0;
+    /* margin-top: -100px; */
+    z-index: 100;
  }
  main {border: solid 7px black;}
 .header-top{
@@ -115,6 +117,11 @@ header {
         display: inline-block;
         margin: 0 1.4em;
     }
+    .header-menu ul {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 14px;
+    }
     .showMenu {
         display: none;
     }
@@ -133,5 +140,8 @@ header {
 }
 .header--seach ::placeholder {
     font-size: 14px;
+}
+.header-menu a {
+    font-size: 19px;
 }
 }
