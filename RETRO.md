@@ -19,7 +19,7 @@
 </div>
 
 
-![Retrospectiva](./public/sprints/Sprint2/Retrospectiva.jpg)
+![Retrospectiva](./sprints/Sprint2/Retrospectiva.JPG)
 
 ***
 ***
