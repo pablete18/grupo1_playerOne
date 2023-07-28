@@ -159,7 +159,7 @@ body {
 /* TABLET */
 @media (min-width: 769px) {
    
-    .register__main {
+    /* .register__main {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -186,7 +186,7 @@ body {
 
     .form-container {
         margin-top: 20px;
-    }
+    } */
 
 
 
