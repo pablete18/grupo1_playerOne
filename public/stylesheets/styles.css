@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Righteous&family=Source+Sans+3:wght@200;300;400;700&display=swap');
 /* @import url(); */
 
-@import '/css/general.css';
-@import '/css/home.css';
-@import '/css/header.css';
-@import '/css/footer.css';
-@import '/css/carritocompra.css';
-@import '/css/productDetail.css';
-@import '/css/login.css';
-@import '/css/register.css';
-@import '/css/404.css'
+@import '/stylesheets/general.css';
+@import '/stylesheets/home.css';
+@import '/stylesheets/header.css';
+@import '/stylesheets/footer.css';
+@import '/stylesheets/carritocompra.css';
+@import '/stylesheets/productDetail.css';
+@import '/stylesheets/login.css';
+@import '/stylesheets/register.css';
+@import '/stylesheets/404.css'
