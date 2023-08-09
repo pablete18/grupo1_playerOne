@@ -18,6 +18,7 @@ app.get('/registro', (req, res)=> res.sendFile(path.join(__dirname, 'views','reg
 app.get('/carritocompras', (req, res) => res.sendFile(path.join(__dirname, "views","carritocompras.html")))
 app.get('/detalleProducto', (req, res) => res.sendFile(path.join(__dirname, "views","productDetail.html")))
 app.get('/404', (req, res) => res.sendFile(path.join(__dirname, "views", "404.html")) )
+app.get('/Producto', (req, res) => res.sendFile(path.join(__dirname, "views", "agregarProducto.html")) )
 
 
 
