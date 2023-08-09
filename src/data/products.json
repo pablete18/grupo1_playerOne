@@ -1,0 +1,100 @@
+[
+    {
+        "id":1,
+        "nombre":"Monitor Led VA Curvo",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":113.612,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":1,
+        "nombre":"Monitor Led VA Curvo",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":113.612,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":1,
+        "nombre":"Monitor Led VA Curvo",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":113.612,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":1,
+        "nombre":"Monitor Led VA Curvo",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":113.612,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":1,
+        "nombre":"Monitor Led VA Curvo",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":113.612,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":1,
+        "nombre":"Monitor Led VA Curvo",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":113.612,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":1,
+        "nombre":"Monitor Led VA Curvo",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":113.612,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    }
+]
