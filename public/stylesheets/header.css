@@ -1,0 +1,147 @@
+header {
+    position: sticky;
+    background: radial-gradient(circle, rgba(1,246,3,1) 0%, rgba(223,254,224,0) 100%);
+    padding-bottom: 0.2em;
+    width: 100%;
+    top: 0;
+    /* margin-top: -100px; */
+    z-index: 100;
+ }
+ main {border: solid 7px black;}
+.header-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--colorNegro);
+}
+.header-top figure{
+
+}
+.header-top img {
+    width: 200px;
+
+}
+.header--seach {
+    width: 100%;
+    text-align: center;
+}
+.header--seach input {
+    border-radius: 6px;
+    background-color: var(--colorGrisClaro);
+    margin-bottom: 3%;
+    height: 26px;
+}
+.header--seach ::placeholder {
+    color: var(--colorGrisOscuro);
+    font-family: var(--fuente1);
+}
+
+.header--seach button {
+    border: none;
+    background-color: var(--colorNegro);
+    color: var(--colorGrisOscuro);
+}
+.header-login {}
+.header-login ul {
+    display: flex;
+}
+.header-login ul li {
+    display: none;;
+}
+.header-menu a {
+    font-family: var(--fuente1);
+    font-weight: 100;
+}
+.header-login img {
+    width: 40px;
+}
+.header-burger {
+}
+.header-burger button {
+    border: none;
+    background-color: var(--colorNegro);
+    color: var(--colorVerdeClaro);
+    margin: 18px;
+}
+.header-menu {}
+.header-menu ul li {
+
+}
+.header-menu {
+    display: none;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+  }
+  
+  .showMenu {
+    display: block;
+    margin:  0 0;
+
+  }
+  
+  @media (min-width: 768px) {
+    .header-top {
+        flex-wrap: nowrap;
+    }
+    .header-burger {
+        display: none;
+    }
+    .header-login ul li {
+        margin-top: 0.5rem;
+        display: inline-block;
+    }
+    .header-login {
+        margin-left: 9em;
+    }
+    .header-login img {
+        margin: 0em 0px 0px 1em;
+    }
+    .header-login li {
+        display: block;
+
+    }
+    .header--seach {
+        margin: 0.5rem 0 0 6em;
+    }
+    .header--seach input {
+        height: 25px;
+    }
+    .menu_movile-login {
+        display: none;
+    }
+    .header-menu {
+        display: flex;
+        justify-content: space-around;
+        }
+    .header-menu li {
+        display: inline-block;
+        margin: 0 1.4em;
+    }
+    .header-menu ul {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 14px;
+    }
+    .showMenu {
+        display: none;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .header-menu li {
+        margin: 0 2.1em;
+  }
+  .header-menu a {
+    font-size: 20px;
+  }
+  .header--seach input {
+    height: 35px;
+    width: 200px;
+}
+.header--seach ::placeholder {
+    font-size: 14px;
+}
+.header-menu a {
+    font-size: 19px;
+}
+}

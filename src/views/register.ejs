@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head') %>
+
+<body>
+
+    <%- include('partials/header') %>
+
+    <main class="register__main">
+
+
+        <div class="logo-container">
+            <img src="/images/logoForm.png" alt="Logo">
+        </div>
+
+        <div class="content-container">
+
+            <div class="form-container">
+                <div class="input-group">
+                    <label for="correo">Nombre de Usuario o Correo</label>
+                    <input type="text" id="correo" placeholder="Correo electrónico" required>
+                </div>
+                <div class="input-group">
+                    <label for="clave">Ingresar Clave</label>
+                    <input type="password" id="clave" placeholder="Contraseña" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="clave2">Repetir Clave</label>
+                    <input type="password" id="clave2" placeholder="Repita Contraseña" required>
+                </div>
+                
+                <div class="input-group-terms">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">Acepta los Términos, Condiciones y Políticas de playerOne</label>
+                </div>
+                
+            
+                <button class="login-button">REGISTRARSE</button>
+
+            </div>
+
+            
+
+            <div class="other-options">
+                <p>o continúa con</p>
+                <button class="login__social-button">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                </button>
+                <button class="login__social-button">
+                    <i class="fa-brands fa-google-plus"></i>
+                    Google
+                </button>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <%- include('partials/footer') %>
+    
+</body>
+
+</html>

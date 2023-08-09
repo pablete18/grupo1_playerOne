@@ -1,0 +1,24 @@
+
+.body__404 {
+    background-image: url(/img/fondo_404.jpg);
+
+}
+.contenedor_404 {}
+.body__404 img {
+    width: 100%;
+    margin-top: 124%;
+}
+@media (min-width: 768px) {
+    .contenedor_404 {}
+.body__404 img {
+    margin-top: 19%;
+}
+}
+
+
+@media (min-width: 1024px) {
+    .contenedor_404 {}
+.body__404 img {
+    margin-top: 9%;
+}
+}
