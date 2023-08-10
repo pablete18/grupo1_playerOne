@@ -4,5 +4,10 @@ module.exports = {
     },
     carrito : (req, res)=> {
         return res.render('carritocompras');
+    },
+    editProducts: (req,res)=>{
+        return res.render('productEdit');
+            
+        }
     }
-}
+
