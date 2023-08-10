@@ -1,4 +1,4 @@
-.body__producto{color: #fff;font-family: var(--fuente1);}
+.body__producto{color: #fff;font-family: var(--fuente1);display: flex;justify-content: center;align-items: center;}
 
   
   .form-container {
