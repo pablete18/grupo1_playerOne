@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head') %>
+
+<body class="body__carrito">
+    <%- include('partials/header') %>
+
+
+    <div class="container">
+    <main class="carrito__main">
+        <div class="carrito__pruductos">
+            <article class="carrito__productos-article">
+                <div class="producto__img">
+                    <img src="/images/producto1.png" alt="mather pc">
+                </div>
+                <div class="producto__info">
+                <h4 class="producto__titulo">titulo de producto</h4>
+                <h4 class="producto__precio">$0.00</h4>
+                <p class="producto__descripcion">descripcion del producto</p>
+           
+                <div class="producto__cantidad-cont">
+                    <button>-</button>
+                    <button>1</button>
+                    <button>+</button>
+                    <h4 class="producto__total">$0.00</h4>
+                </div>
+                </div>
+            </article>
+
+            <div class="carrito__pruductos">
+                <article class="carrito__productos-article">
+                    <div class="producto__img">
+                        <img src="/images/producto2.png" alt="mather pc">
+                    </div>
+                    <div class="producto__info">
+                    <h4 class="producto__titulo">titulo de producto</h4>
+                    <p class="producto__descripcion">descripcion del producto</p>
+                    <h4 class="producto__precio">$0.00</h4>
+                    <div class="producto__cantidad-cont">
+                        <button>-</button>
+                        <button>1</button>
+                        <button>+</button>
+                        <h4 class="producto__total">$0.00</h4>
+                    </div>
+                    </div>
+                </article>
+
+                <div class="carrito__pruductos">
+                    <article class="carrito__productos-article">
+                        <div class="producto__img">
+                            <img src="/images/producto3.png" alt="mather pc">
+                        </div>
+                        <div class="producto__info">
+                        <h4 class="producto__titulo">titulo de producto</h4>
+                        <p class="producto__descripcion">descripcion del producto</p>
+                        <h4 class="producto__precio">$0.00</h4>
+                        <div class="producto__cantidad-cont">
+                            <button>-</button>
+                            <button>1</button>
+                            <button>+</button>
+                            <h4 class="producto__total">$0.00</h4>
+                        </div>
+                        </div>
+                    </article>
+
+                    <div class="carrito__pruductos">
+                        <article class="carrito__productos-article">
+                            <div class="producto__img">
+                                <img src="/images/producto4.png" alt="mather pc">
+                            </div>
+                            <div class="producto__info">
+                            <h4 class="producto__titulo">titulo de producto</h4>
+                            <p class="producto__descripcion">descripcion del producto</p>
+                            <h4 class="producto__precio">$0.00</h4>
+                            <div class="producto__cantidad-cont">
+                                <button>-</button>
+                                <button>1</button>
+                                <button>+</button>
+                                <h4 class="producto__total">$0.00</h4>
+                            </div>
+                            </div>
+                        </article>
+
+                        <div class="carrito__pruductos">
+                            <article class="carrito__productos-article">
+                                <div class="producto__img">
+                                    <img src="/images/producto4.png" alt="mather pc">
+                                </div>
+                                <div class="producto__info">
+                                <h4 class="producto__titulo">titulo de producto</h4>
+                                <p class="producto__descripcion">descripcion del producto</p>
+                                <h4 class="producto__precio">$0.00</h4>
+                                <div class="producto__cantidad-cont">
+                                    <button>-</button>
+                                    <button>1</button>
+                                    <button>+</button>
+                                    <h4 class="producto__total">$0.00</h4>
+                                </div>
+                                </div>
+                            </article>
+           
+
+            <article class="main__envios">
+                <div>
+                    <h3>Alcanza el envio gratis</h3>
+                    <div class="barra">
+                        <div class="barra-carga"></div>
+                    </div>
+                    <p>agrega $0.00 para conseguirlo</p>
+                </div>
+                <button>Cancelar</button>
+                <button>Comprar</button>
+            </article>
+        </div>
+    </main>
+
+    <aside class="aside">
+        <div class="aside__section">
+
+        <article class="aside__section-envios">
+            <h2>playerOne Envios</h2>
+            <button class="flecha"><i class="fas fa-sort-down"></i></button>
+            <form action="/" class="aside__envios-cp">
+                <input type="text" placeholder=" codigo postal">
+            </form>
+             <img src="/images/logo-correo-argentino-png.png" alt="logo correo argentino">
+            <div class="correoargentino">
+               
+                <h5 class="aside__envios-dom">domicilio</h5>
+                <h5 class="aside__envios-precio1">$0.00</h5>
+                <h5 class="aside__envios-sucursal">sucursal</h5>
+                <h5 class="aside__envios-precio2">$0.00</h5>
+            </div>
+            <img src="/images/LOGO_OCA_VIOLETA.png" alt="logo oca">
+            <div class="correooca">
+
+                <h5 class="aside__envios-dom">domicilio</h5>
+                <h5 class="aside__envios-precio1">$0.00</h5>
+                <h5 class="aside__envios-sucursal">sucursal</h5>
+                <h5 class="aside__envios-precio2">$0.00</h5>
+            </div>
+        </article>
+
+        <article class="aside__section-descuentos">
+            <h2>playerOne Descuentos</h2>
+            <button class="flecha"> <i class="fas fa-sort-down"></i></button>
+            <h5>ingresa codigo de descuento</h5>
+            <form action="/" class="aside__envios-cp">
+                <input type="text" placeholder=" ">
+            </form>
+            <button class="aplicar">aplicar</button>
+        </article>
+
+        <article class="aside__section-pagos">
+            <h2>playerOne Pagos</h2>
+            <button class="flecha"> <i class="fas fa-sort-down"></i></button>
+            <form id="registerForm" action="procesar_registro.php" method="POST" enctype="multipart/form-data">
+                <input type="radio" id="comprador" name="perfil" value="comprador" required>
+                <label for="comprador">Deposito | Trasferencia </label>
+                <input type="radio" id="vendedor" name="perfil" value="vendedor" required>
+                <label for="vendedor">Mercado Pago</label><br>
+            </form>
+            <h5>Total</h5>
+            <h5>$0.00</h5>
+        </article>
+
+        </div>
+        
+    </aside>
+
+    </div>7
+
+
+<%- include('partials/footer') %>
+      
+</body>
+
+</html>

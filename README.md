@@ -4,7 +4,7 @@
 
 </div>
 
-![playerOne](./public/img/logoBarra.png)
+![playerOne](./public/images/logoBarra.png)
 
 
 <div align="justify">
@@ -39,6 +39,8 @@ El sitio de venta de productos gamer y equipos de competencia está dirigido a j
 ### **NUESTRA PAGINA**
 https://playeroneg1.onrender.com/
 ---
+---
+
 ### **SITIOS DE REFERENCIA**
 
 

@@ -1,0 +1,100 @@
+[
+    {
+        "id":1,
+        "nombre":"Monitor Led VA Curvo",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":113.612,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":2,
+        "nombre":"NOTEBOOK  15.6 V15 RYZEN 5 5500U 8GB 256GB",
+        "marca": "LENOVO",
+        "categoria":"notebooks",
+        "precio":408.772,
+        "descuento":10,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":3,
+        "nombre":"HD SSD 1TB P400 LITE M.2 NVME GEN4 3500MB/S 2280",
+        "marca": "PATRIOT",
+        "categoria":"almacenamiento",
+        "precio":47.320,
+        "descuento":15,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":4,
+        "nombre":"MONITOR GAMER CURVO 32 ODYSSEY G5",
+        "marca": "Samsung",
+        "categoria":"Monitores",
+        "precio":275.548,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":5,
+        "nombre":"VIDEO RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION",
+        "marca": "GEFORCE",
+        "categoria":"Placas de video",
+        "precio":408.408,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":6,
+        "nombre":"GABINETE YOROI GC-03HE 6 COOLERS RGB",
+        "marca": "XFX",
+        "categoria":"gabinetes",
+        "precio":56.420,
+        "descuento":15,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    },
+    {
+        "id":7,
+        "nombre":"PC ARMADA RYZEN 5 5600G+B550+8GB+240GB",
+        "marca": "AMD",
+        "categoria":"Pc armada",
+        "precio":280.280,
+        "descuento":null,
+        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "especificaciones":{
+            "consumo":24,
+            "Resolucion":"1920x1080",
+            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        }
+    }
+]

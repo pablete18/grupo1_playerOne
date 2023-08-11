@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <%- include('partials/head') %>>
+</head>
+<body>
+ 
+    <main>
+        <form action=""method="POST">
+            <div class="form-container">
+                <div class="form">
+                    <span class="heading">Editar Producto</span>
+                    <input placeholder="Nombre Del Producto" type="text" class="input">
+                    <input placeholder="Precio" id="mail" type="number" class="input">
+                    <textarea placeholder="Descripción" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
+                    <input placeholder="Agregar imagen" type="file" id="productImage" accept="image/*" required class="input">
+                    <label for="categoria">Categoria</label>
+                    <select name="categoria" id="categoria" class="input">
+                    <option value="sillas">Sillas</option>
+                    <option value="PCarmadas">PC Armadas</option>
+                    <option value="accesorios">accesorios</option>
+                    <option value="monitores">Monitores</option>
+                </select>
+                    <div class="button-container">
+                    <div class="send-button">Editar</div>
+                    <div class="reset-button-container">
+                        <div id="reset-btn" class="reset-button">Reset</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
