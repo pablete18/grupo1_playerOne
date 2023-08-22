@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![playerOne](./public/img/logoBarra.png)
+![playerOne](../../public/images/logoBarra.png)
 
 </div>
 
@@ -19,7 +19,7 @@
 </div>
 
 
-![Retrospectiva](./sprints/Sprint2/Retrospectiva.JPG)
+![Retrospectiva](../sprints/Sprint2/Retrospectiva.JPG)
 
 ***
 ***
