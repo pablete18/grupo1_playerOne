@@ -5,6 +5,7 @@
         "marca": "Samsung",
         "categoria":"Monitores",
         "precio":113.612,
+        "estado": "in-sale",
         "descuento":null,
         "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
@@ -19,6 +20,7 @@
         "marca": "LENOVO",
         "categoria":"notebooks",
         "precio":408.772,
+        "estado": "destacado",
         "descuento":10,
         "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
@@ -33,6 +35,7 @@
         "marca": "PATRIOT",
         "categoria":"almacenamiento",
         "precio":47.320,
+        "estado": "destacado",
         "descuento":15,
         "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
@@ -47,6 +50,7 @@
         "marca": "Samsung",
         "categoria":"Monitores",
         "precio":275.548,
+        "estado": "destacado",
         "descuento":null,
         "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
@@ -61,6 +65,7 @@
         "marca": "GEFORCE",
         "categoria":"Placas de video",
         "precio":408.408,
+        "estado": "destacado",
         "descuento":null,
         "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
@@ -75,6 +80,7 @@
         "marca": "XFX",
         "categoria":"gabinetes",
         "precio":56.420,
+        "estado": "destacado",
         "descuento":15,
         "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
@@ -89,6 +95,7 @@
         "marca": "AMD",
         "categoria":"Pc armada",
         "precio":280.280,
+        "estado": "destacado",
         "descuento":null,
         "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
