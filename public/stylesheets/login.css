@@ -5,7 +5,7 @@ body {
     background-color: #333; /* Gris oscuro para el fondo */
     color: var(--colorNegro); /* Letras en color negro */
     font-family: var(--fuente1);
-    /* position: relative; */
+    position: relative;
     letter-spacing: 2px;
 }
 
