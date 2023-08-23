@@ -169,6 +169,8 @@
 /* SWIPER CARROUSEL */
 .card-body{
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 .swiper-slide h5{
         font-size: 1em;
