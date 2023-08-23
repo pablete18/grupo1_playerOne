@@ -13,8 +13,8 @@ router.get('/agregarProducto', add);
 router.post('/agregarProducto', create)
 
 router.get('/edit',edit);
-router.put('/update',update);
+/* router.put('/update',update);
 
-router.delete('/remove',remove); 
+router.delete('/remove',remove);  */
 
 module.exports = router;

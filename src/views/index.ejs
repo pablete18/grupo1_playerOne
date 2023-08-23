@@ -34,17 +34,25 @@
 
    
         <section class="main_section">
-           <h2>Oferta de la Semana</h2>
+          <% products.forEach(product => { %>
+            <% if (product.estado === 'in-sale') { %>            
+             <h2>Oferta de la Semana</h2>
             <article class="main__section__article--ofertas">
-                <h1>Monitor Led VA Curvo 24"</h1>
-                <h3>$113.612</h3>
+                <h1><%=product.nombre %></h1>
+                <h3>$<%= product.precio %></h3>
                 <img src="/images/detalleProducto_1.jpg" alt="" width="100%">
                 <a href="/products/productDetail"> Ver detalle</a>
             </article>
+            <% } %>
+          <% }) %>
+           
         </section>
 
         <section class="main__section__productosdestacados">
-          <h2>Nuestro productos destacados</h2>
+
+          <% products.forEach(product => { %>
+            <% if (product.estado === 'destacado'){ %>
+              <h2>Nuestro productos destacados</h2>
             <article class="">
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -52,12 +60,17 @@
                         <div class="card">
                             <img src="/images/products/product-1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">$408.772</h5>
-                                <p class="card-text">NOTEBOOK LENOVO 15.6" V15 RYZEN 5 5500U 8GB 256GB</p>
-                                <a href="#" class="btn btn-primary">ver detalle</a>
+                                <h5 class="card-title">$<%= product.precio %></h5>
+                                <p class="card-text"><%= product.descripcion %></p>
+                                <a href="/src/controllers/products/detail.js" class="btn btn-primary">ver detalle</a>
                             </div>
                         </div>
                     </div>
+            <% } %>
+           
+          <% }) %>
+
+         
                     <div class="swiper-slide">
 
                         <div class="card">
