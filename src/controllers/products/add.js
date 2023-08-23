@@ -1,8 +1,6 @@
 const {readJSON} = require ('../../data/products.json');
 
-module.exports = {
-    add: (req,res)=>{
+module.exports = (req,res)=>{
         return res.render('agregarProducto')}
 
     
-}

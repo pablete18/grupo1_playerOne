@@ -1,5 +1,3 @@
-module.exports = {
-    carrito : (req, res)=> {
+module.exports = (req, res)=> {
         return res.render('carritocompras');
-    },
-}
+    }
