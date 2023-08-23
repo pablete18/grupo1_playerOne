@@ -5,7 +5,7 @@ const {detail, carrito, add, create, edit, update, remove}=require('../controlle
 const router = express.Router();
 
 /* /products */
-router.get('/productDetail', detail);
+router.get('/productDetail/:id', detail);
 
 router.get('/carritocompras', carrito);
 
