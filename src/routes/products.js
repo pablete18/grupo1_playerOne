@@ -10,7 +10,7 @@ router.get('/productDetail/:id', detail);
 router.get('/carritocompras', carrito);
 
 router.get('/agregarProducto', add);
-router.post('/agregarProducto', upload.single('image'), productAddValidator, create)
+router.post('/agregarProducto', create)
 
 router.get('/edit',edit);
 /* router.put('/update',update);
