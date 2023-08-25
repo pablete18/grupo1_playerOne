@@ -47,6 +47,8 @@ header {
 .header-login ul {
     display: flex;
 }
+.botonAdmin{}
+.botonAdmin i{font-size: 25px;margin: 6px 0 0 0;}
 .header-login ul li {
     display: none;;
 }
