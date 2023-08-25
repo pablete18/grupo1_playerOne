@@ -8,6 +8,7 @@
         "estado": "in-sale",
         "discount": null,
         "description": "lorem ipsum dolor",
+        "image": "product-3.jpg",
         "specifications": {
             "consumption": "lorem ipsum dolor",
             "Resolution": "lorem ipsum dolor",
@@ -22,7 +23,8 @@
         "price": 408.772,
         "estado": "destacado",
         "discount": 10,
-        "description": "lorem ipsum dolor",
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "image": "product-1.jpg",
         "specifications": {
             "consumption": "lorem ipsum dolor",
             "Resolution": "lorem ipsum dolor",
@@ -37,7 +39,8 @@
         "price": 47.320,
         "estado": "destacado",
         "discount": 15,
-        "description": "lorem ipsum dolor",
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "image": "product-2.jpg",
         "specifications": {
             "consumption": "lorem ipsum dolor",
             "Resolution": "lorem ipsum dolor",
@@ -52,7 +55,8 @@
         "price": 275.548,
         "estado": "destacado",
         "discount": null,
-        "description": "lorem ipsum dolor",
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "image": "product-7.jpg",
         "specifications": {
             "consumption": "lorem ipsum dolor",
             "Resolution": "lorem ipsum dolor",
@@ -67,7 +71,8 @@
         "price": 408.408,
         "estado": "destacado",
         "discount": null,
-        "description": "lorem ipsum dolor",
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "image": "product-4.jpg",
         "specifications": {
             "consumption": "lorem ipsum dolor",
             "Resolution": "lorem ipsum dolor",
@@ -82,7 +87,8 @@
         "price": 56.420,
         "estado": "destacado",
         "discount": 15,
-        "description": "lorem ipsum dolor",
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "image": "product-5.jpg",
         "specifications": {
             "consumption":"lorem ipsum dolor",
             "Resolution": "lorem ipsum dolor",
@@ -97,7 +103,8 @@
         "price": 280.280,
         "estado": "destacado",
         "discount": null,
-        "description": "lorem ipsum dolor",
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "image": "product-6.jpg",
         "specifications": {
             "consumption": "lorem ipsum dolor",
             "resolution": "lorem ipsum dolor",
