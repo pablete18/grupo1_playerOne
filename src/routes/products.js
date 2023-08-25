@@ -12,7 +12,7 @@ router.get('/carritocompras', carrito);
 router.get('/agregarProducto', add);
 router.post('/agregarProducto', create)
 
-router.get('/edit',edit);
+router.get('/edit/:id',edit);
 /* router.put('/update',update);*/
 
 router.delete('/remove',remove);  

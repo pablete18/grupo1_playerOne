@@ -13,6 +13,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: var(--colorNegro);
+    
+
 }
 .header-top figure{
 
@@ -118,9 +120,12 @@ header {
         margin: 0 1.4em;
     }
     .header-menu ul {
-        display: flex;
-        flex-wrap: nowrap;
-        font-size: 14px;
+        
+display: flex;
+        
+flex-wrap: nowrap;
+        
+font-size: 14px;
     }
     .showMenu {
         display: none;
