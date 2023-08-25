@@ -15,6 +15,6 @@ router.post('/agregarProducto', create)
 router.get('/edit/:id',edit);
 router.put('/update/:id',update);
 
-router.delete('/remove',remove);  
+router.delete('/remove/:id',remove);  
 
 module.exports = router;

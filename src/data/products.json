@@ -8,7 +8,9 @@
         "estado": "in-sale",
         "discount": null,
         "description": "lorem ipsum dolor",
-        "image": "product-3.jpg",
+        "image":"detalleProducto_1.jpg",
+        "image2":"detalleProducto_2.webp",
+        "image3":"detalleProducto_3.jpg",
         "specifications": {
             "consumption": "lorem ipsum dolor",
             "Resolution": "lorem ipsum dolor",
@@ -56,7 +58,7 @@
         "estado": "destacado",
         "discount": null,
         "description": "Discover a true immersive experience with the Samsung curved monitor",
-        "image": "product-7.jpg",
+        "image": null,
         "specifications": {
             "consumption": "lorem ipsum dolor",
             "Resolution": "lorem ipsum dolor",
