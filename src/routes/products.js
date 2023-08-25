@@ -13,7 +13,7 @@ router.get('/agregarProducto', add);
 router.post('/agregarProducto', create)
 
 router.get('/edit/:id',edit);
-/* router.put('/update',update);*/
+router.put('/update/:id',update);
 
 router.delete('/remove',remove);  
 

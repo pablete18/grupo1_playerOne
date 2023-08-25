@@ -68,6 +68,12 @@
     font-size: 0.7em;    
     color: var(--colorVerde);
   }
+.swiper-slide h3{
+    display: block;
+    width: 100%;
+    font-size: 0.7em;
+    color: black;
+}
 .swiper-slide p{
     display: none;
     text-align: start;
@@ -165,9 +171,7 @@
         top: 150px;
         padding: 10px 40px;
 }
-    .main__section__productosdestacados{
-        /* width: 100%; */
-    }
+ 
 /* SWIPER CARROUSEL */
 .card-body{
     padding: 10px;

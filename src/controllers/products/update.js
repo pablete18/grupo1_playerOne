@@ -5,13 +5,13 @@ const productsFilePath = path.join(__dirname, '../../data/products.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 module.exports= (req, res) => {
-		const {name,precio, category,description} = req.body;
+		const {name,precio,specifications, category,description} = req.body;
 		const productModify = products.map((product=>{
 			
 			if(product.id=== +req.params.id){
 				product.name= name.trim()
 				product.precio= +precio
-				product.especificaciones= especificaciones.trim()
+				product.specifications= specifications.trim()
 				product.category = category
 				product.description= description.trim()
 
