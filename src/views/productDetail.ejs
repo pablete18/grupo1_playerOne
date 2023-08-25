@@ -22,13 +22,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/images/detalleProducto_1.jpg" class="d-block w-100" alt="...">
+                        <img src="/images/products/<%= product.image ||'images-default.png'%>" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/detalleProducto_2.webp" class="d-block w-100" alt="...">
+                        <img src="/images/products/<%= product.image2||'images-default.png' %>" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/detalleProducto_3.jpg" class="d-block w-100" alt="...">
+                        <img src="/images/products/<%= product.image3||'images-default.png' %>" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <div class="main__div__img--container__div--flechitas">
@@ -48,10 +48,10 @@
          <div class="main__div--detalle" >
             <section class="main__div__section--titleproduct">           
                     <h1><%= product.name %></h1>
-                    <h2><%= product.marca %></h2>
+                    <h2><%= product.brand %></h2>
                    </section>
                    <section class="main__div__section__precioybotones">
-                   <h2 class="main__div__section__precioybotones__h2--precio">$<%= product.precio %></h2>
+                   <h2 class="main__div__section__precioybotones__h2--precio">$<%= product.price %></h2>
                   <div class="main__div__section__precioybotones__div--productbuttons">
                    <section class="main__div__section__preciosybotones__div--productbuttons__section">
                    <button id="boton">-</button>
@@ -70,15 +70,14 @@
                    <div class="main__section--especificacion__div">
                    <article class="main__section--general">
                        <h3>General</h3>
-                       <p>Tipo de panel : VA</p>
-                       <p>Pantalla : Curva</p>
-                       <p>Tamaño de Pantalla :24’</p>
+                       <p><%= product.description %></p>
+                      
                    </article>
                    <article class="main__section--caracteristicas">
-                       <h3>Caracteristicas</h3>
-                       <p>Consumo 35 w</p>
-                       <p>Resolucion maxima: 1920 x 1080</p>
-                       <p>Frecuenca: 144 Hz</p>
+                       <h3>Especificaciones</h3>
+                       <p><%= product.specifications.consumption %></p>
+                       <p><%= product.specifications.resolution %></p>
+                       <p><%= product.specifications.accesories %>></p>
                    </article>
                    </div>
                      

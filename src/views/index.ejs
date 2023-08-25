@@ -39,8 +39,8 @@
              <h2>Oferta de la Semana</h2>
             <article class="main__section__article--ofertas">
                 <h1><%=product.name %></h1>
-                <h3>$<%= product.precio %></h3>
-                <img src="/images/detalleProducto_1.jpg" alt="" width="100%">
+                <h3>$<%= product.price %></h3>
+                <img src="/images/products/<%= product.image||'images-default.png' %>" alt="" width="100%">
                 <a href="/products/productDetail/<%= product.id %>"> Ver detalle</a>
             </article>
             <% } %>
@@ -57,9 +57,10 @@
             <% if (product.estado === 'destacado'){ %>           
                       <div class="swiper-slide">
                         <div class="card">
-                            <img src="/images/products/product-1.jpg" class="card-img-top" alt="...">
+                            <img src="/images/products/<%= product.image||"images-default.png" %>" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">$<%= product.precio %></h5>
+                                <h3 class="card-title"><%= product.name %></h5>
+                                <h5 class="card-title">$<%= product.price %></h5>
                                 <p class="card-text"><%= product.descripcion %></p>
                                 <a href="/products/productDetail/<%= product.id %>" class="btn btn-primary">ver detalle</a>
                             </div>

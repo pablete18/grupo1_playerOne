@@ -7,12 +7,14 @@
         "price": 113.612,
         "estado": "in-sale",
         "discount": null,
-        "description": "Discover a true immersive experience with the Samsung curved monitor",
-        "image": "product-1.jpg"
+        "description": "lorem ipsum dolor",
+        "image":"detalleProducto_1.jpg",
+        "image2":"detalleProducto_2.webp",
+        "image3":"detalleProducto_3.jpg",
         "specifications": {
-            "consumption": 24,
-            "Resolution": "1920x1080",
-            "accessories": "Power Cable / HDMI Cable / CD / Guide"
+            "consumption": "lorem ipsum dolor",
+            "Resolution": "lorem ipsum dolor",
+            "accessories": "lorem ipsum dolor"
         }
     },
     {
@@ -24,11 +26,10 @@
         "estado": "destacado",
         "discount": 10,
         "description": "Discover a true immersive experience with the Samsung curved monitor",
-        "image": "product-1.jpg"
         "specifications": {
-            "consumption": 24,
-            "Resolution": "1920x1080",
-            "accessories": "Power Cable / HDMI Cable / CD / Guide"
+            "consumption": "lorem ipsum dolor",
+            "Resolution": "lorem ipsum dolor",
+            "accessories": "lorem ipsum dolor"
         }
     },
     {
@@ -40,11 +41,10 @@
         "estado": "destacado",
         "discount": 15,
         "description": "Discover a true immersive experience with the Samsung curved monitor",
-        "image": "product-1.jpg"
         "specifications": {
-            "consumption": 24,
-            "Resolution": "1920x1080",
-            "accessories": "Power Cable / HDMI Cable / CD / Guide"
+            "consumption": "lorem ipsum dolor",
+            "Resolution": "lorem ipsum dolor",
+            "accessories": "lorem ipsum dolor"
         }
     },
     {
@@ -56,11 +56,11 @@
         "estado": "destacado",
         "discount": null,
         "description": "Discover a true immersive experience with the Samsung curved monitor",
-        "image": "product-1.jpg"
+        "image": null,
         "specifications": {
-            "consumption": 24,
-            "Resolution": "1920x1080",
-            "accessories": "Power Cable / HDMI Cable / CD / Guide"
+            "consumption": "lorem ipsum dolor",
+            "Resolution": "lorem ipsum dolor",
+            "accessories": "lorem ipsum dolor"
         }
     },
     {
@@ -72,11 +72,10 @@
         "estado": "destacado",
         "discount": null,
         "description": "Discover a true immersive experience with the Samsung curved monitor",
-        "image": "product-1.jpg"
         "specifications": {
-            "consumption": 24,
-            "Resolution": "1920x1080",
-            "accessories": "Power Cable / HDMI Cable / CD / Guide"
+            "consumption": "lorem ipsum dolor",
+            "Resolution": "lorem ipsum dolor",
+            "accessories": "lorem ipsum dolor"
         }
     },
     {
@@ -88,11 +87,10 @@
         "estado": "destacado",
         "discount": 15,
         "description": "Discover a true immersive experience with the Samsung curved monitor",
-        "image": "product-1.jpg"
         "specifications": {
-            "consumption": 24,
-            "Resolution": "1920x1080",
-            "accessories": "Power Cable / HDMI Cable / CD / Guide"
+            "consumption":"lorem ipsum dolor",
+            "Resolution": "lorem ipsum dolor",
+            "accessories": "lorem ipsum dolor"
         }
     },
     {
@@ -104,11 +102,10 @@
         "estado": "destacado",
         "discount": null,
         "description": "Discover a true immersive experience with the Samsung curved monitor",
-        "image": "product-1.jpg"
         "specifications": {
-            "consumption": 24,
-            "Resolution": "1920x1080",
-            "accessories": "Power Cable / HDMI Cable / CD / Guide"
+            "consumption": "lorem ipsum dolor",
+            "resolution": "lorem ipsum dolor",
+            "accessories": "lorem ipsum dolor"
         }
     }
 ]
