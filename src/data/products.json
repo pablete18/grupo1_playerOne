@@ -1,28 +1,31 @@
 [
     {
+        
+
         "id":1,
-        "nombre":"Monitor Led VA Curvo",
+        "name":"Monitor Led VA Curvo",
         "marca": "Samsung",
-        "categoria":"Monitores",
+        "category":"Monitores",
         "precio":113.612,
         "estado": "in-sale",
         "descuento":null,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "description": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
             "consumo":24,
             "Resolucion":"1920x1080",
             "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+            
         }
     },
     {
         "id":2,
-        "nombre":"NOTEBOOK  15.6 V15 RYZEN 5 5500U 8GB 256GB",
+        "name":"NOTEBOOK  15.6 V15 RYZEN 5 5500U 8GB 256GB",
         "marca": "LENOVO",
-        "categoria":"notebooks",
+        "category":"notebooks",
         "precio":408.772,
         "estado": "destacado",
         "descuento":10,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "description": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
             "consumo":24,
             "Resolucion":"1920x1080",
@@ -31,13 +34,13 @@
     },
     {
         "id":3,
-        "nombre":"HD SSD 1TB P400 LITE M.2 NVME GEN4 3500MB/S 2280",
+        "name":"HD SSD 1TB P400 LITE M.2 NVME GEN4 3500MB/S 2280",
         "marca": "PATRIOT",
-        "categoria":"almacenamiento",
+        "category":"almacenamiento",
         "precio":47.320,
         "estado": "destacado",
         "descuento":15,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "description": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
             "consumo":24,
             "Resolucion":"1920x1080",
@@ -46,13 +49,13 @@
     },
     {
         "id":4,
-        "nombre":"MONITOR GAMER CURVO 32 ODYSSEY G5",
+        "name":"MONITOR GAMER CURVO 32 ODYSSEY G5",
         "marca": "Samsung",
-        "categoria":"Monitores",
+        "category":"Monitores",
         "precio":275.548,
         "estado": "destacado",
         "descuento":null,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "description": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
             "consumo":24,
             "Resolucion":"1920x1080",
@@ -61,13 +64,13 @@
     },
     {
         "id":5,
-        "nombre":"VIDEO RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION",
+        "name":"VIDEO RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION",
         "marca": "GEFORCE",
-        "categoria":"Placas de video",
+        "category":"Placas de video",
         "precio":408.408,
         "estado": "destacado",
         "descuento":null,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "description": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
             "consumo":24,
             "Resolucion":"1920x1080",
@@ -76,13 +79,13 @@
     },
     {
         "id":6,
-        "nombre":"GABINETE YOROI GC-03HE 6 COOLERS RGB",
+        "name":"GABINETE YOROI GC-03HE 6 COOLERS RGB",
         "marca": "XFX",
-        "categoria":"gabinetes",
+        "category":"gabinetes",
         "precio":56.420,
         "estado": "destacado",
         "descuento":15,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "description": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
             "consumo":24,
             "Resolucion":"1920x1080",
@@ -91,13 +94,13 @@
     },
     {
         "id":7,
-        "nombre":"PC ARMADA RYZEN 5 5600G+B550+8GB+240GB",
+        "name":"PC ARMADA RYZEN 5 5600G+B550+8GB+240GB",
         "marca": "AMD",
-        "categoria":"Pc armada",
+        "category":"Pc armada",
         "precio":280.280,
         "estado": "destacado",
         "descuento":null,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
+        "description": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
         "especificaciones":{
             "consumo":24,
             "Resolucion":"1920x1080",

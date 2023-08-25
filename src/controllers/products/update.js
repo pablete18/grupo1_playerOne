@@ -1,6 +1,8 @@
-const { unlinkSync, existsSync } = require("fs");
-const { readJSON, writeJSON } = require("../../data/products.json");
+const fs = require('fs');
+const path = require('path');
 
+const productsFilePath = path.join(__dirname, '../../data/products.json');
+const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 module.exports= (req, res) => {
 		const {name,price, discount,category,description} = req.body;
 		const productModify = products.map((product=>{

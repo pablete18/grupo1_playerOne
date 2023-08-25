@@ -45,7 +45,6 @@
     margin: 10px;
     background-color: var(--colorGrisClaro);
     padding: 10px;
-
 }
 .main__section__productosdestacados h2{
     text-align: center;
@@ -167,7 +166,7 @@
         padding: 10px 40px;
 }
     .main__section__productosdestacados{
-        width: 100%;
+        /* width: 100%; */
     }
 /* SWIPER CARROUSEL */
 .card-body{
