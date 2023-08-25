@@ -26,7 +26,7 @@
       "estado": "destacado",
       "discount": 10,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image":"product-1.jpg",
+      "image": "product-1.jpg",
       "specifications": {
          "consumption": "lorem ipsum dolor",
          "Resolution": "lorem ipsum dolor",
@@ -42,7 +42,7 @@
       "estado": "destacado",
       "discount": 15,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image":"product-2.jpg",
+      "image": "product-2.jpg",
       "specifications": {
          "consumption": "lorem ipsum dolor",
          "Resolution": "lorem ipsum dolor",
@@ -58,7 +58,6 @@
       "estado": "destacado",
       "discount": null,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image":"product-3.jpg",
       "image": null,
       "specifications": {
          "consumption": "lorem ipsum dolor",
@@ -75,7 +74,7 @@
       "estado": "destacado",
       "discount": null,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image":"product-4.jpg",
+      "image": "product-4.jpg",
       "specifications": {
          "consumption": "lorem ipsum dolor",
          "Resolution": "lorem ipsum dolor",
@@ -91,7 +90,7 @@
       "estado": "destacado",
       "discount": 15,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image":"product-5.jpg",
+      "image": "product-5.jpg",
       "specifications": {
          "consumption": "lorem ipsum dolor",
          "Resolution": "lorem ipsum dolor",
@@ -107,11 +106,17 @@
       "estado": "destacado",
       "discount": null,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image":"product-6.jpg",
+      "image": "product-6.jpg",
       "specifications": {
          "consumption": "lorem ipsum dolor",
          "resolution": "lorem ipsum dolor",
          "accessories": "lorem ipsum dolor"
       }
+   },
+   {
+      "id": 8,
+      "price": null,
+      "discount": null,
+      "image": null
    }
 ]

@@ -14,16 +14,14 @@
               </div>
               <div class="card-body">
                 <form action="" method="POST" class="row" enctype="multipart/form-data">
-                  <div class="col-12 col-md-6 mb-3">
+                  <div class="col-12 col-md-6 mb-3" >
                     <label for="name" class="form-label">Nombre</label>
                     <input type="text" class="form-control <%= locals.errors && (errors.name && 'is-invalid') %>" id="name" placeholder="Nombre del producto"
                       name="name" value="<%= locals.old && (old.name && old.name) %>">
                       <small class="ms-2 text-danger"><%= locals.errors && (errors.name && errors.name.msg) %></small>
                   </div>
                   <div class="col-12 col-md-6 mb-3">
-                    <label for="brand" class="form-label">Marca</label>
-                    <select class="form-select <%= locals.errors && (errors.brand && 'is-invalid') %>" aria-label="Default select example" name="brand" id="brand">
-                      <option selected hidden value="">Seleccione...</option>
+
                       
             
                     </select>
@@ -48,9 +46,9 @@
                   </div>
                   <div class="col-12 d-flex justify-content-end align-items-center gap-2 mb-3">
                     <small class="ms-2 text-danger"><%= locals.errors && (errors.image && errors.image.msg) %></small>
-                    <label for="image" class="btn btn-secondary">Agregar imagen</label>
+                    <label for="image" class="btn btn-secondary"> <i class="fas fa-file-image"></i> Agregar imagen</label>
                     <input hidden class="form-control" type="file" id="image" name="image">
-                    <button class="btn btn-dark" type="submit">Guardar cambios</button>
+                    <button class="btn btn-dark" type="submit"><i class="far fa-save"></i> Guardar cambios</button>
                   </div>
                 </form>
               </div>
