@@ -1,5 +1,9 @@
-const { readJSON, writeJSON}= require('../../data/products.json')
+const fs = require('fs');
+const path = require('path');
 
- module.exports = (req,res) =>{
-    
-} 
+const productsFilePath = path.join(__dirname, '../../data/products.json');
+const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+
+ module.exports = (req, res) => {
+    return res.render('admin')
+}
