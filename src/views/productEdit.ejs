@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <%- include('partials/head') %>>
-</head>
-<body>
- 
-    <%- include('partials/header') %>>
+    <%- include('partials/head',{
+        title : 'EDITAR PRODUCTO'
+    }) %>
 
-    <main>
-        <form action=""method="POST">
-            <div class="form-container">
-                <div class="form">
-                    <span class="heading">Editar Producto</span>
-                    <input placeholder="Nombre Del Producto" type="text" class="input">
-                    <input placeholder="Precio" id="mail" type="number" class="input">
-                    <textarea placeholder="Descripción" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
-                    <input placeholder="Agregar imagen" type="file" id="productImage" accept="image/*" required class="input">
-                    <label for="categoria">Categoria</label>
-                    <select name="categoria" id="categoria" class="input">
-                    <option value="sillas">Sillas</option>
-                    <option value="PCarmadas">PC Armadas</option>
-                    <option value="accesorios">accesorios</option>
-                    <option value="monitores">Monitores</option>
-                </select>
-                    <div class="button-container">
-                    <div class="send-button">Editar</div>
-                    <div class="reset-button-container">
-                        <div id="reset-btn" class="reset-button">Reset</div>
+<body class="login">
+    <%- include('partials/header') %>
+
+    <main class="container">
+        <div class="row mt-5">
+            <div class="col-12 col-md-10 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Editar producto</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="/products/update/<%= id %>?_method=PUT" method="POST" class="row" enctype="multipart/form-data">
+                          <div class="col-12 col-md-4">
+                            <img src="/images/<%= image %>" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-12 col-md-8">
+                            <div class="row">
+                            <div class="col-12 col-md-6 mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre del producto" name="name" value="<%= name %>">
+                              </div>
+                              <div class="col-12 col-md-6 mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Marca</label>
+                                <select class="form-select" aria-label="Default select example" name="brand">
+                                  <% brands.forEach(item => { %>
+                                    <option <%= item.name === brand && 'selected' %> value="<%= item.name %>"><%= item.name %></option>
+                                  <% }) %>
+                                  
+                                  </select>
+                              </div>
+                              <div class="col-12 col-md-6 mb-3">
+                                <label for="price" class="form-label">Precio</label>
+                                <input type="number" class="form-control" id="price" name="price" value="<%= price %>">
+                              </div>
+                              <div class="col-12 col-md-6 mb-3">
+                                <label for="discount" class="form-label">Descuento</label>
+                                <input type="number" class="form-control" id="discount" name="discount" value="<%= discount %>">
+                              </div>
+                             
+                              <div class="col-12  mb-3">
+                                <label for="description" class="form-label">Descripción</label>
+                                <textarea class="form-control" style="resize: none;" name="description" id="description"><%= description %></textarea>
+                              </div>
+                            </div>
+                              <div class="col-12 d-flex justify-content-end gap-2 mb-3">
+                                <label for="image" class="btn btn-secondary">Cambiar imagen</label>
+                                <input hidden class="form-control" type="file" id="image" name="image">
+                                <button class="btn btn-success" type="submit">Guardar cambios</button>
+                              </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-            </div>
-        </form>
+        </div>
     </main>
 </body>
 </html>

@@ -5,16 +5,16 @@ const {detail, carrito, add, create, edit, update, remove}=require('../controlle
 const router = express.Router();
 
 /* /products */
-router.get('/productDetail', detail);
+router.get('/productDetail/:id', detail);
 
 router.get('/carritocompras', carrito);
 
 router.get('/agregarProducto', add);
 router.post('/agregarProducto', create)
 
-router.get('/edit',edit);
-/* router.put('/update',update);
+router.get('/edit/:id',edit);
+/* router.put('/update',update);*/
 
-router.delete('/remove',remove);  */
+router.delete('/remove',remove);  
 
 module.exports = router;

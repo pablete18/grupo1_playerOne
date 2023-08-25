@@ -11,8 +11,10 @@ module.exports = {
         return res.render('index',{
             products
         });
-    }/* ,
-    search : (req,res)=>{
-        return
-    } */
+    },
+    admin : (req, res ) => {
+        return res.render('admin', {
+            products
+        })
+    }
 }

@@ -1,0 +1,20 @@
+[
+   {
+   "id":1 ,
+   "firstName": "Pablo" ,
+  "lastName": " Alcaraz",
+   "email": "pabloealcaraz@gmail.com" ,
+   "password": "playerOne1" ,
+  "category": "admin",
+    "image": null
+   },
+   {
+    "id":2 ,
+    "firstName":"Gonzalo" ,
+   "lastName": "Sotelo" ,
+    "email": "g.sotelo@gmail.com" ,
+    "password": "playerOne2",
+   "category": "admin" ,
+     "image": null 
+    }
+]

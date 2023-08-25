@@ -7,12 +7,14 @@ header {
     /* margin-top: -100px; */
     z-index: 100;
  }
- main {/* border: solid 7px black; */}
+ main {border: solid 7px black;}
 .header-top{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: var(--colorNegro);
+    
+
 }
 .header-top figure{
 
@@ -118,9 +120,12 @@ header {
         margin: 0 1.4em;
     }
     .header-menu ul {
-        display: flex;
-        flex-wrap: nowrap;
-        font-size: 14px;
+        
+display: flex;
+        
+flex-wrap: nowrap;
+        
+font-size: 14px;
     }
     .showMenu {
         display: none;

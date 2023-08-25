@@ -38,10 +38,10 @@
             <% if (product.estado === 'in-sale') { %>            
              <h2>Oferta de la Semana</h2>
             <article class="main__section__article--ofertas">
-                <h1><%=product.nombre %></h1>
+                <h1><%=product.name %></h1>
                 <h3>$<%= product.precio %></h3>
                 <img src="/images/detalleProducto_1.jpg" alt="" width="100%">
-                <a href="/products/productDetail"> Ver detalle</a>
+                <a href="/products/productDetail/<%= product.id %>"> Ver detalle</a>
             </article>
             <% } %>
           <% }) %>
@@ -49,86 +49,32 @@
         </section>
 
         <section class="main__section__productosdestacados">
-
+          <h2>Nuestro productos destacados</h2>
+          <article class="">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
           <% products.forEach(product => { %>
-            <% if (product.estado === 'destacado'){ %>
-              <h2>Nuestro productos destacados</h2>
-            <article class="">
-              <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+            <% if (product.estado === 'destacado'){ %>           
+                      <div class="swiper-slide">
                         <div class="card">
                             <img src="/images/products/product-1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">$<%= product.precio %></h5>
                                 <p class="card-text"><%= product.descripcion %></p>
-                                <a href="/src/controllers/products/detail.js" class="btn btn-primary">ver detalle</a>
+                                <a href="/products/productDetail/<%= product.id %>" class="btn btn-primary">ver detalle</a>
                             </div>
                         </div>
                     </div>
+                 
             <% } %>
            
-          <% }) %>
-
-         
-                    <div class="swiper-slide">
-
-                        <div class="card">
-                            <img src="/images/products/product-2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">$47.320</h5>
-                                <p class="card-text">HD SSD 1TB PATRIOT P400 LITE M.2 NVME GEN4 3500MB/S 2280</p>
-                                <a href="#" class="btn btn-primary">ver detalle</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/products/product-3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">$275.548</h5>
-                                <p class="card-text">MONITOR GAMER CURVO 32" SAMSUNG ODYSSEY G5</p>
-                                <a href="#" class="btn btn-primary">ver detalle</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card"  >
-                            <img src="/images/products/product-4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">$408.408</h5>
-                                <p class="card-text">VIDEO GEFORCE RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION</p>
-                                <a href="#" class="btn btn-primary">ver detalle</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img src="/images/products/product-5.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">$56.420</h5>
-                                <p class="card-text">GABINETE XFX YOROI GC-03HE 6 COOLERS RGB</p>
-                                <a href="#" class="btn btn-primary">ver detalle</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-
-                        <div class="card"  >
-                            <img src="/images/products/product-6.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">$280.280</h5>
-                                <p class="card-text">PC ARMADA AMD RYZEN 5 5600G+B550+8GB+240GB</p>
-                                <a href="#" class="btn btn-primary">ver detalle</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-pagination"></div>
-            </div>
-
-         </article>
+          <% }) %>   
+        </div>
+          <div class="swiper-pagination"></div>
+        </div> 
+        </article>    
+              
+              
         </section>
         <section class="main__section__marcas">
         <h4>Las mejores marcas para vos</h4>

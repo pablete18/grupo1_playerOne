@@ -25,6 +25,7 @@
     border: none;
     outline: none;
     padding: 10px;
+    font-weight: bold;
     margin: 0 0 25px 25px;
     transition: all 0.2s cubic-bezier(0.39, 0.02, 0.58, 1);
     border-left: 1px solid transparent;
@@ -64,7 +65,7 @@
     padding: 10px;
     color: var(--colorVerdeOscuro);
     text-align: center;
-    /* font-weight: bold; */
+    font-weight: bold;
     border: 1px solid transparent;
     transition: all 0.2s ease-in-out;
   }
@@ -96,7 +97,6 @@
     color: var(--colorVerdeOscuro);
   }
 
-.form ::placeholder {
-  color: #fff;
-font-weight: 500;
-}
+  input .placeholder {
+    color: #fff;
+  }

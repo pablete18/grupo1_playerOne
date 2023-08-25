@@ -1,107 +1,107 @@
 [
     {
-        "id":1,
-        "nombre":"Monitor Led VA Curvo",
-        "marca": "Samsung",
-        "categoria":"Monitores",
-        "precio":113.612,
+        "id": 1,
+        "name": "Monitor Led VA Curvo",
+        "brand": "Samsung",
+        "category": "Monitores",
+        "price": 113.612,
         "estado": "in-sale",
-        "descuento":null,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
-        "especificaciones":{
-            "consumo":24,
-            "Resolucion":"1920x1080",
-            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        "discount": null,
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "specifications": {
+            "consumption": 24,
+            "Resolution": "1920x1080",
+            "accessories": "Power Cable / HDMI Cable / CD / Guide"
         }
     },
     {
-        "id":2,
-        "nombre":"NOTEBOOK  15.6 V15 RYZEN 5 5500U 8GB 256GB",
-        "marca": "LENOVO",
-        "categoria":"notebooks",
-        "precio":408.772,
+        "id": 2,
+        "name": "NOTEBOOK 15.6 V15 RYZEN 5 5500U 8GB 256GB",
+        "brand": "LENOVO",
+        "category": "notebooks",
+        "price": 408.772,
         "estado": "destacado",
-        "descuento":10,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
-        "especificaciones":{
-            "consumo":24,
-            "Resolucion":"1920x1080",
-            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        "discount": 10,
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "specifications": {
+            "consumption": 24,
+            "Resolution": "1920x1080",
+            "accessories": "Power Cable / HDMI Cable / CD / Guide"
         }
     },
     {
-        "id":3,
-        "nombre":"HD SSD 1TB P400 LITE M.2 NVME GEN4 3500MB/S 2280",
-        "marca": "PATRIOT",
-        "categoria":"almacenamiento",
-        "precio":47.320,
+        "id": 3,
+        "name": "HD SSD 1TB P400 LITE M.2 NVME GEN4 3500MB/S 2280",
+        "brand": "PATRIOT",
+        "category": "almacenamiento",
+        "price": 47.320,
         "estado": "destacado",
-        "descuento":15,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
-        "especificaciones":{
-            "consumo":24,
-            "Resolucion":"1920x1080",
-            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        "discount": 15,
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "specifications": {
+            "consumption": 24,
+            "Resolution": "1920x1080",
+            "accessories": "Power Cable / HDMI Cable / CD / Guide"
         }
     },
     {
-        "id":4,
-        "nombre":"MONITOR GAMER CURVO 32 ODYSSEY G5",
-        "marca": "Samsung",
-        "categoria":"Monitores",
-        "precio":275.548,
+        "id": 4,
+        "name": "MONITOR GAMER CURVO 32 ODYSSEY G5",
+        "brand": "Samsung",
+        "category": "Monitores",
+        "price": 275.548,
         "estado": "destacado",
-        "descuento":null,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
-        "especificaciones":{
-            "consumo":24,
-            "Resolucion":"1920x1080",
-            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        "discount": null,
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "specifications": {
+            "consumption": 24,
+            "Resolution": "1920x1080",
+            "accessories": "Power Cable / HDMI Cable / CD / Guide"
         }
     },
     {
-        "id":5,
-        "nombre":"VIDEO RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION",
-        "marca": "GEFORCE",
-        "categoria":"Placas de video",
-        "precio":408.408,
+        "id": 5,
+        "name": "VIDEO RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION",
+        "brand": "GEFORCE",
+        "category": "Placas de video",
+        "price": 408.408,
         "estado": "destacado",
-        "descuento":null,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
-        "especificaciones":{
-            "consumo":24,
-            "Resolucion":"1920x1080",
-            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        "discount": null,
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "specifications": {
+            "consumption": 24,
+            "Resolution": "1920x1080",
+            "accessories": "Power Cable / HDMI Cable / CD / Guide"
         }
     },
     {
-        "id":6,
-        "nombre":"GABINETE YOROI GC-03HE 6 COOLERS RGB",
-        "marca": "XFX",
-        "categoria":"gabinetes",
-        "precio":56.420,
+        "id": 6,
+        "name": "GABINETE YOROI GC-03HE 6 COOLERS RGB",
+        "brand": "XFX",
+        "category": "gabinetes",
+        "price": 56.420,
         "estado": "destacado",
-        "descuento":15,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
-        "especificaciones":{
-            "consumo":24,
-            "Resolucion":"1920x1080",
-            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        "discount": 15,
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "specifications": {
+            "consumption": 24,
+            "Resolution": "1920x1080",
+            "accessories": "Power Cable / HDMI Cable / CD / Guide"
         }
     },
     {
-        "id":7,
-        "nombre":"PC ARMADA RYZEN 5 5600G+B550+8GB+240GB",
-        "marca": "AMD",
-        "categoria":"Pc armada",
-        "precio":280.280,
+        "id": 7,
+        "name": "PC ARMADA RYZEN 5 5600G+B550+8GB+240GB",
+        "brand": "AMD",
+        "category": "Pc armada",
+        "price": 280.280,
         "estado": "destacado",
-        "descuento":null,
-        "descripcion": "Descubri una verdadera experiencia inmersiva con el monitor curvo de Samsung",
-        "especificaciones":{
-            "consumo":24,
-            "Resolucion":"1920x1080",
-            "accesorios":"Cable Alimentación / Cable HDMI / CD / Guia"
+        "discount": null,
+        "description": "Discover a true immersive experience with the Samsung curved monitor",
+        "specifications": {
+            "consumption": 24,
+            "Resolution": "1920x1080",
+            "accessories": "Power Cable / HDMI Cable / CD / Guide"
         }
     }
 ]
