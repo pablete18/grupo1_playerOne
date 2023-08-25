@@ -18,5 +18,3 @@ router.get('/edit',edit);
 router.delete('/remove',remove);  */
 
 module.exports = router;
-
-
