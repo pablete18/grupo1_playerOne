@@ -51,30 +51,10 @@
    },
    {
       "id": 4,
-      "name": "MONITOR GAMER CURVO 32 ODYSSEY G5",
       "brand": "Samsung",
-      "category": "Monitores",
-      "price": 275.548,
-      "estado": "destacado",
+      "price": null,
       "discount": null,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
       "image": null,
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 5,
-      "name": "VIDEO RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION",
-      "brand": "GEFORCE",
-      "category": "Placas de video",
-      "price": 408.408,
-      "estado": "destacado",
-      "discount": null,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-4.jpg",
       "specifications": {
          "consumption": "lorem ipsum dolor",
          "Resolution": "lorem ipsum dolor",
@@ -94,22 +74,6 @@
       "specifications": {
          "consumption": "lorem ipsum dolor",
          "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 7,
-      "name": "PC ARMADA RYZEN 5 5600G+B550+8GB+240GB",
-      "brand": "AMD",
-      "category": "Pc armada",
-      "price": 280.28,
-      "estado": "destacado",
-      "discount": null,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-6.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "resolution": "lorem ipsum dolor",
          "accessories": "lorem ipsum dolor"
       }
    },

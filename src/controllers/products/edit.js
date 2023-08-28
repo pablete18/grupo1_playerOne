@@ -9,8 +9,8 @@ module.exports =  (req, res) => {
     const id = req.params.id;
     const product = products.find((product) => product.id ===+id);
 
-    return res.render("productEdit", {
-        product
+    return res.render("productEdit",{
+            product,
     
     })
   }
