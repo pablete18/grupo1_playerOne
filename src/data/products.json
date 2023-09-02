@@ -1,122 +1,47 @@
 [
-   {
-      "id": 1,
-      "name": "Monitor Led VA Curvo",
-      "brand": "Samsung",
-      "category": "Monitores",
-      "price": 113.612,
-      "estado": "in-sale",
-      "discount": null,
-      "description": "lorem ipsum dolor",
-      "image": "detalleProducto_1.jpg",
-      "image2": "detalleProducto_2.webp",
-      "image3": "detalleProducto_3.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 2,
-      "name": "NOTEBOOK 15.6 V15 RYZEN 5 5500U 8GB 256GB",
-      "brand": "LENOVO",
-      "category": "notebooks",
-      "price": 408.772,
-      "estado": "destacado",
-      "discount": 10,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-1.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 3,
-      "name": "HD SSD 1TB P400 LITE M.2 NVME GEN4 3500MB/S 2280",
-      "brand": "PATRIOT",
-      "category": "almacenamiento",
-      "price": 47.32,
-      "estado": "destacado",
-      "discount": 15,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-2.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 4,
-      "name": "MONITOR GAMER CURVO 32 ODYSSEY G5",
-      "brand": "Samsung",
-      "category": "Monitores",
-      "price": 275.548,
-      "estado": "destacado",
-      "discount": null,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": null,
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 5,
-      "name": "VIDEO RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION",
-      "brand": "GEFORCE",
-      "category": "Placas de video",
-      "price": 408.408,
-      "estado": "destacado",
-      "discount": null,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-4.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 6,
-      "name": "GABINETE YOROI GC-03HE 6 COOLERS RGB",
-      "brand": "XFX",
-      "category": "gabinetes",
-      "price": 56.42,
-      "estado": "destacado",
-      "discount": 15,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-5.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 7,
-      "name": "PC ARMADA RYZEN 5 5600G+B550+8GB+240GB",
-      "brand": "AMD",
-      "category": "Pc armada",
-      "price": 280.28,
-      "estado": "destacado",
-      "discount": null,
-      "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-6.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
-      "id": 8,
-      "price": null,
-      "discount": null,
-      "image": null
-   }
+  {
+    "id": 3,
+    "name": "HD SSD 1TB P400 LITE M.2 NVME GEN4 3500MB/S 2280",
+    "estado": "destacado",
+    "price": 47.32,
+    "discount": 15,
+    "description": "Discover a true immersive experience with the Samsung curved monitor",
+    "image": "product-2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "MONITOR GAMER CURVO 32 ODYSSEY G5",
+    "estado": "destacado",
+    "price": 275.548,
+    "discount": null,
+    "description": "Discover a true immersive experience with the Samsung curved monitor",
+    "image": null
+  },
+  {
+    "id": 5,
+    "name": "VIDEO RTX 3060 TI 8GB MSI VENTUS 3X OC EDITION",
+    "estado": "destacado",
+    "price": 408.408,
+    "discount": null,
+    "description": "Discover a true immersive experience with the Samsung curved monitor",
+    "image": "product-4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "GABINETE YOROI GC-03HE 6 COOLERS RGB",
+    "estado": "destacado",
+    "price": 56.42,
+    "discount": 15,
+    "description": "Discover a true immersive experience with the Samsung curved monitor",
+    "image": "product-5.jpg"
+  },
+  {
+    "id": 7,
+    "name": "PC ARMADA RYZEN 5 5600G+B550+8GB+240GB",
+    "estado": "destacado",
+    "price": 280.28,
+    "discount": null,
+    "description": "Discover a true immersive experience with the Samsung curved monitor",
+    "image": "product-6.jpg"
+  }
 ]
