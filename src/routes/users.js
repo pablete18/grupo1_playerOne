@@ -11,7 +11,7 @@ router.get('/register', register);
 router.post('/register',processRegister);
 //PROFILE
 router.get('/profile', profile);
-router.put('/profile', updateProfile);
+router.put('/profile-edit', updateProfile);
 //LOGOUT
 router.get('/logout', logout)
 
