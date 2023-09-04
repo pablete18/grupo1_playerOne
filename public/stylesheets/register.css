@@ -30,7 +30,7 @@ body {
 }
 
 .logo-container img {
-    /* border: 1px solid var(--colorVerde); */
+    border: 1px solid var(--colorVerde);
     background-color: var(--colorNegro);
     max-width: 90%;
     width: 70%;
@@ -199,7 +199,8 @@ body {
         .logo-container {
             flex: 1;
             min-width: 0;
-            width: 50%;    
+            width: 50%;
+            align-self: start;
         }
     
         .logo-container img{
@@ -210,8 +211,7 @@ body {
     
         .content-container {
             flex: 1;
-            min-width: 0;     
-            
+            min-width: 0;
         }
     
         .form-container {
