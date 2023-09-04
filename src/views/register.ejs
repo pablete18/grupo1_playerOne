@@ -15,20 +15,28 @@
         </div>
 
         <div class="content-container">
-
-            <div class="form-container">
+            <form action="" method="POST" >
+               <div class="form-container">
                 <div class="input-group">
-                    <label for="correo">Nombre de Usuario o Correo</label>
-                    <input type="text" id="correo" placeholder="Correo electrónico" required>
+                    <label for="name">Nombre</label>
+                    <input type="text" name ="name"id="name" placeholder="Nombre" required>
                 </div>
                 <div class="input-group">
-                    <label for="clave">Ingresar Clave</label>
-                    <input type="password" id="clave" placeholder="Contraseña" required>
+                    <label for="lastName">Apellido</label>
+                    <input type="text" name ="lastName"id="lastName" placeholder="Apellido" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Correo electronico</label>
+                    <input type="text" name ="email"id="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Ingresar Clave</label>
+                    <input type="password" name="password" id="password"placeholder="Contraseña" required>
                 </div>
 
                 <div class="input-group">
-                    <label for="clave2">Repetir Clave</label>
-                    <input type="password" id="clave2" placeholder="Repita Contraseña" required>
+                    <label for="password2">Repetir Clave</label>
+                    <input type="password" name ="password2" placeholder="Repita Contraseña" required>
                 </div>
                 
                 <div class="input-group-terms">
@@ -39,10 +47,10 @@
             
                 <button class="login-button">REGISTRARSE</button>
 
-            </div>
+               </div>
 
             
-
+             </form> 
             <div class="other-options">
                 <p>o continúa con</p>
                 <button class="login__social-button">
