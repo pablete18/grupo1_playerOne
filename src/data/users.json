@@ -1,0 +1,19 @@
+[
+   {
+      "id": "93ee843e-1095-4566-9a03-100cc9cabd57",
+      "name": "Lionel",
+      "lastName": "Messi",
+      "email": "messi@gmail.com",
+      "password": "$2a$10$gZTmK0YZ/j9CLkX1lCOzXefoLASaZpv9I7LMf0lK4IX5iu9nrA7ny",
+      "rol": "user"
+   },
+   {
+      "id": "2fa36504-0f99-45c0-87fd-e79024bcf6ac",
+      "name": "Gonzalo",
+      "lastName": "Sotelo",
+      "email": "sotelo-g@live.com.ar",
+      "password": "$2a$10$01SDuGEa6ZeL6ehHRk3MZONudAMMWZERg/5cQnKOimLYYv4PTagbe",
+      "rol": "admin"
+   }
+
+]

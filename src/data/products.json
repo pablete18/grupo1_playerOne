@@ -76,11 +76,5 @@
          "Resolution": "lorem ipsum dolor",
          "accessories": "lorem ipsum dolor"
       }
-   },
-   {
-      "id": 8,
-      "price": null,
-      "discount": null,
-      "image": null
    }
 ]

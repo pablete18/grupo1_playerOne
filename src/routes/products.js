@@ -1,6 +1,7 @@
 const express = require('express');
-const {detail, carrito, add, create, edit, update, remove}=require('../controllers/productsController')
-
+const {detail,carrito , add, edit, create, update, remove} = require('../controllers/productsController');
+const upload = require('../middlewares/upload');
+const productAddValidator = require('../validations/productAddValidator');
 
 const router = express.Router();
 
@@ -9,12 +10,13 @@ router.get('/productDetail/:id', detail);
 
 router.get('/carritocompras', carrito);
 
-router.get('/agregarProducto', add);
-router.post('/agregarProducto', create)
+router
+    .get('/detail/:id', detail)
+    .get('/add', add)
+    .post('/add', upload.single('image'), productAddValidator, create)
+    .get('/edit/:id', edit)
+    .put('/update/:id', upload.single('image'),update)
+    .delete('/remove/:id',remove)
 
-router.get('/edit/:id',edit);
-router.put('/update/:id',update);
 
-router.delete('/remove/:id',remove);  
-
-module.exports = router;
+module.exports = router

@@ -10,24 +10,18 @@ const {
   updateProfile,
   logout,
 } = require("../controllers/usersController");
-
 const loginValidator = require("../validations/loginValidator");
-
+const checkUserLogin = require("../middlewares/checkUserLogin");
 
 
 /* /users */
-//LOGIN
-router.get('/login', login);
-router.post('/login', loginValidator, processLogin);
-//REGISTER
-router.get('/register', register);
-router.post('/register',processRegister);
-//PROFILE
-router.get('/profile', profile);
-router.put('/profile-edit', updateProfile);
-//LOGOUT
-router.get('/logout', logout)
-
-
+router
+    .get("/register", register)
+    .post("/register", processRegister)
+    .get("/login", login)
+    .post("/login",loginValidator, processLogin)
+    .get("/profile", profile)
+  
+    .get("/logout",logout)
 
 module.exports = router;

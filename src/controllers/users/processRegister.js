@@ -1,20 +1,27 @@
-const fs = require('fs');
-const User = require ('../../data/User');
-const path = require('path')
-const usersFilePath = path.join(__dirname,'../../data/user.json')
+const {validationResult} = require('express-validator');
+const User = require('../../data/User');
+const { readJSON, writeJSON } = require('../../data');
 
+module.exports = (req,res) => {
 
-module.exports = (req,res)=>{
+    let errors = validationResult(req);
+    if(errors.isEmpty()){
+        
+        const users = readJSON('users.json');
 
-    const users = JSON.parse(fs.readFileSync(usersFilePath, 'utf-8'))
+        let newUser = new User(req.body);
 
-    let newUser = new User(req.body);
+        users.push(newUser);
 
-    users.push(newUser);
+        writeJSON(users, 'users.json');
 
-    let usersJson = JSON.stringify(users, null, 3)
+        return res.redirect('/')
 
-    fs.writeFileSync(usersFilePath ,usersJson);
-
-    return res.redirect('/')
+    }else {
+        return res.render('register', {
+            old : req.body,
+            errors : errors.mapped()
+        })
+    }
+    
 }
