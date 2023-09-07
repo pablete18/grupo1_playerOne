@@ -1,26 +1,44 @@
-const fs = require('fs');
-const path = require('path');
-
-const productsFilePath = path.join(__dirname, '../../data/products.json');
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+const {existsSync, unlinkSync} = require('fs');
+const {validationResult} = require('express-validator');
+const { readJSON, writeJSON } = require("../../data");
+const Product = require("../../data/Product");
 
 module.exports = (req, res) => {
-    const { name, price, discount, description } = req.body;
     
-    const product = {
-        id: products.length + 1, 
-        name: name?.trim(),
-        price: parseFloat(price), 
-        discount: parseFloat(discount), 
-        description: description?.trim(),
-        image: null
-    };
+    const errors = validationResult(req);
 
-   
-    products.push(product);
+    if(errors.isEmpty()){
 
-    
-    fs.writeFileSync(productsFilePath, JSON.stringify(products, null, 3));
+      const products = readJSON("products.json");
+      const data = {
+        ...req.body,
+        image : req.file ? req.file.filename : null
+      }
+  
+      let newProduct = new Product(data);
+      products.push(newProduct);
+  
+      writeJSON(products, 'products.json');
+  
+      return res.redirect('/admin');
 
-    res.redirect('/admin');
-}
+    }else {
+
+      if(req.file){
+        existsSync('./public/images/' + req.file.filename) && unlinkSync('./public/images/' + req.file.filename)
+      }
+
+      
+
+      return res.render("productAdd", {
+        brands: brands.sort((a, b) =>
+          a.name > b.name ? 1 : a.name < b.name ? -1 : 0
+        ),
+        errors : errors.mapped(),
+        old : req.body
+      });
+    }
+
+
+  
+  }

@@ -1,11 +1,24 @@
-const express = require('express');
-const { login,logout,processLogin,processRegister,profile,register,updateProfile } = require('../controllers/usersController');
+const express = require("express");
 const router = express.Router();
+
+const {
+  register,
+  processRegister,
+  login,
+  processLogin,
+  profile,
+  updateProfile,
+  logout,
+} = require("../controllers/usersController");
+
+const loginValidator = require("../validations/loginValidator");
+
+
 
 /* /users */
 //LOGIN
 router.get('/login', login);
-router.post('/login', processLogin);
+router.post('/login', loginValidator, processLogin);
 //REGISTER
 router.get('/register', register);
 router.post('/register',processRegister);

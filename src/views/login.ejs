@@ -1,76 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+  <%- include('partials/head') %>
 
-<%- include('partials/head') %>
-
-<body class="login">
-
-  <%- include('partials/header') %>
+  <body class="login">
+    <%- include('partials/header') %>
 
     <main class="login__main">
+      <div class="logo-container">
+        <img src="/images/logoForm.png" alt="Logo" />
+      </div>
 
-    
-        <div class="logo-container">
-            <img src="/images/logoForm.png" alt="Logo">
+      <div class="content-container">
+        <form class="row" method="POST">
+          <div class="form-container">
+            <div class="input-group">
+              <label for="email">Ingresar Correo</label>
+              <input
+                class="form-control <%= locals.errors && (errors.email && 'is-invalid') %>"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Correo electrónico"
+              />
+              <small class="text-danger ms-2"
+                ><%= locals.errors && (errors.email && errors.email.msg)
+                %></small
+              >
+            </div>
+            <div class="input-group">
+              <label for="password">Ingresar Clave</label>
+              <input
+              class="form-control"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Contraseña"
+              />
+            </div>
+
+            <div class="input-group-remember">
+              <input type="checkbox" id="remember-pass" name="remember" />
+              <label
+                for="remember-pass"
+                type="checkbox"
+                value=""
+                id="remember"
+                name="remember"
+                >Recordar Contraseña</label
+              >
+            </div>
+
+            <div class="forgot-password">
+              <a href="#">Olvide mi Clave</a>
+            </div>
+
+            <small class="text-danger ms-2"
+              ><%= locals.errors && (errors.password && errors.password.msg)
+              %></small
+            >
+
+            <button class="login-button" type="submit">LOGIN</button>
+          </div>
+        </form>
+
+        <div class="register-container">
+          <p>¿Aún no tienes cuenta?</p>
+          <a href="/users/register">
+            <h3>Registrate</h3>
+          </a>
         </div>
 
-        <div class="content-container">
-
-            <div class="form-container">
-                <div class="input-group">
-                    <label for="correo">Ingresar Correo</label>
-                    <input type="mail" id="correo" placeholder="Correo electrónico">
-                </div>
-                <div class="input-group">
-                    <label for="clave">Ingresar Clave</label>
-                    <input type="password" id="clave" placeholder="Contraseña">
-                </div>
-                
-                <div class="input-group-remember">
-                    <input type="checkbox" id="remember-pass">
-                    <label for="remember-pass">Recordar Contraseña</label>
-                </div>
-                
-                <div class="forgot-password">
-                    <a href="#">Olvide mi Clave</a>
-                </div>
-                <button class="login-button">LOGIN</button>
-
-            </div>
-
-            <div class="register-container">
-                <p>¿Aún no tienes cuenta?</p>
-                <a href="/users/register">
-                    <h3>Registrate</h3>
-                </a>
-
-
-            </div>
-
-            <div class="other-options">
-                <p>o continúa con</p>
-                <button class="login__social-button">
-                    <i class="fa-brands fa-facebook"></i>
-                    Facebook
-                </button>
-                <button class="login__social-button">
-                    <i class="fa-brands fa-google-plus"></i>
-                    Google
-                </button>
-            </div>
-
+        <div class="other-options">
+          <p>o continúa con</p>
+          <button class="login__social-button">
+            <i class="fa-brands fa-facebook"></i>
+            Facebook
+          </button>
+          <button class="login__social-button">
+            <i class="fa-brands fa-google-plus"></i>
+            Google
+          </button>
         </div>
-
-
-        
-    
-
-
-
+      </div>
     </main>
 
+    
+
     <%- include('partials/footer') %>
-
-</body>
-
+  </body>
 </html>

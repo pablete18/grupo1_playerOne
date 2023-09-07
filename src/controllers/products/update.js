@@ -1,26 +1,32 @@
-const fs = require('fs');
-const path = require('path');
-const productsFilePath = path.join(__dirname, '../../data/products.json');
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+const { unlinkSync, existsSync } = require("fs");
+const { readJSON, writeJSON } = require("../../data");
 
-module.exports= (req, res) => {
-	 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
-	
-		const {name,price,estado, category,description} = req.body;
-		const productModify = products.map((product=>{			
-			if(product.id=== +req.params.id){
-				product.name= name
-				product.price= +price
-				product.estado= estado
-				product.category = category
-				product.description= description
+module.exports = (req, res) => {
+  const products = readJSON("products.json");
+  const id = req.params.id;
+  const { name, brand, description, price, discount } = req.body;
 
-			}
-			return product
-			
-		}))
-		fs.writeFileSync(path.join(__dirname,'../../data/products.json'),JSON.stringify(productModify,null,3),'utf-8')
-		
-		return res.redirect('/admin')
+  const productsModify = products.map((product) => {
+    if (product.id === id) {
 
-} 
+      req.file &&
+        existsSync(`./public/images/${product.image}`) &&
+        unlinkSync(`./public/images/${product.image}`);
+
+      product.name = name.trim();
+      product.brand = brand;
+      product.description = description.trim();
+      product.price = +price;
+      product.discount = +discount;
+      product.createdAt = new Date();
+      product.image = req.file ? req.file.filename : product.image;
+
+    }
+
+    return product;
+  });
+
+  writeJSON(productsModify, "products.json");
+
+  return res.redirect("/admin");
+};
