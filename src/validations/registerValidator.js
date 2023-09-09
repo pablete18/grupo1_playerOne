@@ -3,27 +3,31 @@ const { readJSON } = require("../data");
 
 module.exports = [
   check("name")
+  .notEmpty()
+    .withMessage("APA se nos olvido el Nombre")
     .isLength({
-      min: 4,
+      min: 3,
     })
-    .withMessage("Debe tener como mínimo 4 letras")
+    .withMessage("Dale Pone un nombre")
     .bail()
     .isAlpha('es-ES')
-    .withMessage("Solo se permiten caracteres alfabéticos"),
+    .withMessage("Escribi en español culia"),
   check("lastName")
+  .notEmpty()
+  .withMessage("APA se nos olvido el Apellido")
     .isLength({
-      min: 4,
+      min: 3,
     })
-    .withMessage("Debe tener como mínimo 4 letras")
+    .withMessage("Dale pone un apellido")
     .bail()
-    .isAlpha()
-    .withMessage("Solo se permiten caracteres alfabéticos"),
+    .isAlpha('es-ES')
+    .withMessage("Escribi en español culia"),
   check("email")
     .notEmpty()
-    .withMessage("El email es obligatorio")
+    .withMessage("Si no pones email como me comunico?")
     .bail()
     .isEmail()
-    .withMessage("Email no válido").bail()
+    .withMessage("Dale pone bien el email").bail()
     .custom((value) => {
         const users = readJSON('users.json');
         const user = users.find(user => user.email === value);

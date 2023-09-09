@@ -47,10 +47,20 @@ main {border: solid 7px black;}
 .header-login ul {
   display: flex;
 }
-.botonAdmin{}
+.botonAdmin{
+    margin: 0 32px 0 0;
+}
 .botonAdmin i{font-size: 25px;margin: 6px 0 0 0;}
+.user-profile{
+    margin: 0 68px 0 0;
+}
+.user-logout{
+    margin: 0 24px 0 0;
+}
+.user-logout i{
+}
 .header-login ul li {
-  display: none;;
+  display: none;
 }
 .header-menu a {
   font-family: var(--fuente1);
@@ -95,7 +105,7 @@ main {border: solid 7px black;}
       display: inline-block;
   }
   .header-login {
-      margin-left: 9em;
+      /* margin-left: 9em; */
   }
   .header-login img {
       margin: 0em 0px 0px 1em;

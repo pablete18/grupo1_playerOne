@@ -5,12 +5,8 @@
   <body class="login">
     <%- include('partials/header') %>
 
-    <main class="login__main">
-      <div class="logo-container">
-        <img src="/images/logoForm.png" alt="Logo" />
-      </div>
-
       <div class="content-form">
+        <input type="checkbox" id="signup_toggle">
         <form class="row" method="POST">
           <div class="form-container">
             <div class="input-grupo">
@@ -27,7 +23,7 @@
                 %></small
               >
             </div>
-            <div class="input-grupo">
+            <div class="input-gr">
               <label for="password">Ingresar Clave</label>
               <input
               class="form-control"
@@ -61,27 +57,29 @@
 
             <button class="login-button" type="submit">LOGIN</button>
           </div>
-        </form>
-
-        <div class="register-container">
-          <p>¿Aún no tienes cuenta?</p>
-          <a href="/users/register">
-            <h3>Registrate</h3>
-          </a>
+          <div class="register-container">
+            <p>¿Aún no tienes cuenta?</p>
+            <a href="/users/register">
+              <h3>Registrate</h3>
+            </a>
+          </div>
+  
+          <div class="other-options">
+            <p>o continúa con</p>
+            <button class="login__social-button">
+              <i class="fa-brands fa-facebook"></i>
+              Facebook
+            </button>
+            <button class="login__social-button">
+              <i class="fa-brands fa-google-plus"></i>
+              Google
+            </button>
+          </div>
+          </form>
         </div>
+        
 
-        <div class="other-options">
-          <p>o continúa con</p>
-          <button class="login__social-button">
-            <i class="fa-brands fa-facebook"></i>
-            Facebook
-          </button>
-          <button class="login__social-button">
-            <i class="fa-brands fa-google-plus"></i>
-            Google
-          </button>
-        </div>
-      </div>
+
     </main>
 
     

@@ -1,28 +1,6 @@
-.login{}
-.login__main{
-  position: relative;
+.content-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo-container{}
-.logo-container img{
-  width: 29%;
-  margin: -3% 0 0 36%;
-  position: absolute;
-  z-index: -1;
-  opacity: 0.3;
-}
-.content-form{
-    width: 30%;
-}
-.form-container{}
-.input-grupo{margin: 10% 0 4% 124%;position: relative;}
-.input-grupo label{
-    position: absolute;
-    margin: 42% 9px 0 0;
-    color: var(--colorGrisClaro);
-}
-.input-grupo input{
-    width: 24em;
-}
-.form-control {
-  border-radius: 21px 0;
-}
+
