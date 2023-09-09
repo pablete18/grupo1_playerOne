@@ -14,6 +14,13 @@
       "email": "sotelo-g@live.com.ar",
       "password": "$2a$10$01SDuGEa6ZeL6ehHRk3MZONudAMMWZERg/5cQnKOimLYYv4PTagbe",
       "rol": "admin"
+   },
+   {
+      "id": "177cd81d-2e2a-4821-a200-84bd0a8476b8",
+      "name": "diego",
+      "lastName": "",
+      "email": "diegote-@gmail.com",
+      "password": "$2a$10$falJWq6NU9z7GXzQxAvyH.vGbOM807UfGu8njkpu2U31rrIwsG0SC",
+      "rol": "user"
    }
-
 ]

@@ -10,18 +10,20 @@ const {
   updateProfile,
   logout,
 } = require("../controllers/usersController");
+const registerValidator = require("../validations/registerValidator");
 const loginValidator = require("../validations/loginValidator");
 const checkUserLogin = require("../middlewares/checkUserLogin");
+const checkNotUserLogin = require("../middlewares/checkNotUserLogin");
 
 
 /* /users */
 router
-    .get("/register", register)
-    .post("/register", processRegister)
-    .get("/login", login)
-    .post("/login",loginValidator, processLogin)
-    .get("/profile", profile)
-  
-    .get("/logout",logout)
+.get("/register",checkNotUserLogin, register)
+.post("/register",registerValidator, processRegister)
+.get("/login", checkNotUserLogin, login)
+.post("/login",loginValidator, processLogin)
+.get("/profile",checkUserLogin, profile)
+.put("/update-profile",updateProfile)
+.get("/logout",logout)
 
 module.exports = router;

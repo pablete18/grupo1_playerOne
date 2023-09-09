@@ -11,6 +11,7 @@ const localsCheck = require('./middlewares/localsCheck');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
+const cookieCheck = require('./middlewares/cookieCheck');
 
 const app = express();
 
@@ -31,7 +32,7 @@ app.use(session({
   saveUninitialized : true
 }));
 
-
+app.use(cookieCheck);
 app.use(localsCheck);
 
 app.use('/', indexRouter);

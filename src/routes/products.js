@@ -6,12 +6,10 @@ const productAddValidator = require('../validations/productAddValidator');
 const router = express.Router();
 
 /* /products */
-router.get('/productDetail/:id', detail);
-
-router.get('/carritocompras', carrito);
 
 router
     .get('/detail/:id', detail)
+    .get('/carritocompras', carrito)
     .get('/add', add)
     .post('/add', upload.single('image'), productAddValidator, create)
     .get('/edit/:id', edit)

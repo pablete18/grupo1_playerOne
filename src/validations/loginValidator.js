@@ -4,10 +4,10 @@ const { readJSON } = require('../data');
 
 module.exports = [
     body('email')
-        .notEmpty().withMessage('El email es requerido').bail()
+        .notEmpty().withMessage('Ingrese Email').bail()
         .isEmail().withMessage('El formato es inválido'),
     body('password')
-        .notEmpty().withMessage('La contraseña es requerida')
+        .notEmpty().withMessage('Ingrese Contraseña')
         .custom((value, {req}) => {
             const users = readJSON('users.json');
             const user = users.find(user => user.email === req.body.email)
@@ -16,5 +16,5 @@ module.exports = [
             }
            
             return true
-        }).withMessage('Credenciales inválidas')
+        }).withMessage('Email o contraseña Invalidas')
 ]
