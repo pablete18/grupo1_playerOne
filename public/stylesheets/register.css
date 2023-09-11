@@ -1,0 +1,13 @@
+.login{
+    background-image: url('/images/fondocolores.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: aliceblue;
+  }
+  .content-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  

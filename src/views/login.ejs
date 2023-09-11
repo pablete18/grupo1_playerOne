@@ -6,7 +6,7 @@
     <%- include('partials/header') %>
 
       <div class="content-form">
-        <input type="checkbox" id="signup_toggle">
+       
         <form class="row" method="POST">
           <div class="form-container">
             <div class="input-grupo">
@@ -34,6 +34,7 @@
               />
             </div>
 
+            <div class="remember-pass"> 
             <div class="input-group-remember">
               <input type="checkbox" id="remember-pass" name="remember" />
               <label
@@ -49,7 +50,7 @@
             <div class="forgot-password">
               <a href="#">Olvide mi Clave</a>
             </div>
-
+          </div>
             <small class="text-danger ms-2"
               ><%= locals.errors && (errors.password && errors.password.msg)
               %></small
@@ -60,12 +61,13 @@
           <div class="register-container">
             <p>¿Aún no tienes cuenta?</p>
             <a href="/users/register">
-              <h3>Registrate</h3>
+              <h3> Registrate</h3>
             </a>
           </div>
   
+          <p class="options">o continúa con</p>
           <div class="other-options">
-            <p>o continúa con</p>
+        
             <button class="login__social-button">
               <i class="fa-brands fa-facebook"></i>
               Facebook
