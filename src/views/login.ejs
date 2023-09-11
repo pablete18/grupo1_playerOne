@@ -10,7 +10,10 @@
         <form class="row" method="POST">
           <div class="form-container">
             <div class="input-grupo">
-              <label for="email">Ingresar Correo</label>
+              <label for="email">Ingresar Correo</label>               <small class="text-danger ms-2"
+              ><%= locals.errors && (errors.email && errors.email.msg)
+              %></small
+            >
               <input
                 class="form-control <%= locals.errors && (errors.email && 'is-invalid') %>"
                 type="email"
@@ -18,13 +21,13 @@
                 id="email"
                 placeholder="Correo electrónico"
               />
-              <small class="text-danger ms-2"
-                ><%= locals.errors && (errors.email && errors.email.msg)
-                %></small
-              >
+
             </div>
             <div class="input-gr">
-              <label for="password">Ingresar Clave</label>
+              <label for="password">Ingresar Clave</label>       <small class="text-danger ms-2"
+              ><%= locals.errors && (errors.password && errors.password.msg)
+              %></small
+            >
               <input
               class="form-control"
                 type="password"
@@ -51,10 +54,7 @@
               <a href="#">Olvide mi Clave</a>
             </div>
           </div>
-            <small class="text-danger ms-2"
-              ><%= locals.errors && (errors.password && errors.password.msg)
-              %></small
-            >
+      
 
             <button class="login-button" type="submit">LOGIN</button>
           </div>

@@ -2,7 +2,7 @@
   background-image: url('/images/fondocolores.gif');
   background-repeat: no-repeat;
   background-size: 100%;
-  color: aliceblue;
+   color: #ffffff
 }
 .content-form {
   display: flex;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.form-container{flex-direction: column;}
+.form-container{width: 65%;margin-left: 14%;}
 
 .register-container{
   display: flex;
@@ -23,11 +23,13 @@
 .register-container p {
     font-size: small;
     font-weight: lighter;
+    color: var(--colorVerdeClaro);
 }
 
 .register-container h3 {
   font-weight: bold;
   font-size: larger;
+  color: var(--colorGrisClaro);
 }
 .remember-pass {
   display: flex;
@@ -42,13 +44,52 @@
     border-radius: 0 30%;
 }
 
+.login-button {
+  padding: 6px 18px;
+  margin: 2% 0 2% 40%;
+  border: none;
+  width: 9em;
+  height: 3em;
+  border-radius: 0 30%;
+  /* border-radius: 30em; */
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 4px #c5c5c5, -6px -6px 4px #ffffff;
+ }
+ 
+ .login-button::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 0 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .login-button:hover::before {
+  width: 9em;
+ }
+
 .other-options {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.options{text-align: center;}
+.options{text-align: center;color: var(--colorVerdeClaro);}
 
-.other-options button {}
+.other-options button {
+    padding: 5px;
+    border: none;
+    border-radius: 6px 0;
+}
 

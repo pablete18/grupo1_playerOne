@@ -1,13 +1,41 @@
-.login{
+.register__main{
     background-image: url('/images/fondocolores.gif');
     background-repeat: no-repeat;
     background-size: 100%;
-    color: aliceblue;
+     color: aliceblue; 
   }
-  .content-form {
+  .content-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70%;
+    margin: 0% 0% 0% 23%;
   }
+  .form-container-f {
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .input-group{
+    width: 37%;
+    padding: 14px;
+  }
+  .input-group label {
+    
+position: absolute;
+    
+margin: -17px 0 0 0px;
+  }
+  .input-group input {
+  }
+  .form-control {
+
+}
+
+.login-button {
+}
+
+
   
   
