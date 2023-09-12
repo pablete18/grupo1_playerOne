@@ -1,9 +1,10 @@
 header {
-  
+  position: sticky;
   background: radial-gradient(circle, rgba(1,246,3,1) 0%, rgba(223,254,224,0) 100%);
   /* padding-bottom: 1px; */
   width: 100%;
-
+  top: 0;
+  z-index: 100;
 }
 main {/* border: solid 7px black; */}
 .header-top{
@@ -12,10 +13,7 @@ main {/* border: solid 7px black; */}
   align-items: center;
   background-color: var(--colorNegro);
   height: 55px;
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  width: 100%;
+  
 }
 .header-top figure{
 
@@ -74,7 +72,6 @@ color: var(--colorGrisOscuro);}
   background-color: rgba(0,0,0,0.6);
   text-align: center;
   height: 33px;
-  margin-top: 22px;
 }
 .header-menu ul {
   margin-bottom: 0;
