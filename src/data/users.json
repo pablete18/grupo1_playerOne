@@ -22,5 +22,13 @@
       "email": "diegote-@gmail.com",
       "password": "$2a$10$falJWq6NU9z7GXzQxAvyH.vGbOM807UfGu8njkpu2U31rrIwsG0SC",
       "rol": "user"
+   },
+   {
+      "id": "a8837492-3ef3-4623-8758-e9bfb785875e",
+      "name": "Pablo",
+      "lastName": "Alcaraz",
+      "email": "pabloealcaraz@gmail.com",
+      "password": "$2a$10$FN1RcHPGQY2vAAEIvjyIJuiKZQUg5s4mIRXl99lrPsAUTXO97yPyW",
+      "rol": "admin"
    }
 ]
