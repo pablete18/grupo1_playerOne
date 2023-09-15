@@ -30,5 +30,13 @@
       "email": "pabloealcaraz@gmail.com",
       "password": "$2a$10$FN1RcHPGQY2vAAEIvjyIJuiKZQUg5s4mIRXl99lrPsAUTXO97yPyW",
       "rol": "admin"
+   },
+   {
+      "id": "42cd361e-e1f7-43cb-bb4a-773494f04a13",
+      "name": "ludmila",
+      "lastName": "aguilar",
+      "email": "ludmilaaguilar2205@gmail.com",
+      "password": "$2a$10$alYugZq0.l8t60xqjW6TvO8Ty/ur9rInE4tJ3r0wJDA0c1ZuCuhDW",
+      "rol": "user"
    }
 ]

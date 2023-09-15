@@ -17,21 +17,24 @@
     <nav class="header-login">
       <ul>
         <% if (!locals.userLogin) { %>
-        <li>
-          <a href="/users/login"><img src="/images/logocuenta.png" alt="cuenta"></a>
-        </li>
-        <li>
-          <a href="/products/carritocompras"><img src="/images/logocarrito.png" alt="carrito"></i></a>
-        </li>
+          
+       
         <% }else{ %>
           <% if (userLogin.rol === "admin") { %>
         <li>
           <a class="botonAdmin" href="/admin"><i class="fas fa-user-shield"></i></a>
         </li>
         <% } %>
-        <li class="user-profile"><a href="/users/profile"> <%= userLogin.name %>!</a></li>
+        <li class="user-profile"><p> <%= userLogin.name %>!</p></li>
         <li class="user-logout"><a href="/users/logout"> <i class="fas fa-sign-out-alt"></i></a></li>
         <% } %>
+        <li>
+          <a href="/users/login"><img src="/images/logocuenta.png" alt="cuenta"></a>
+        </li>
+        <li>
+          <a href="/products/carritocompras"><img src="/images/logocarrito.png" alt="carrito"></i></a>
+        </li>
+
       </ul>
     </nav>
   </div>
