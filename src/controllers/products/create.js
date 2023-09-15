@@ -26,7 +26,7 @@ module.exports = (req, res) => {
     }else {
 
       if(req.file){
-        existsSync('./public/images/' + req.file.filename) && unlinkSync('./public/images/' + req.file.filename)
+        existsSync('./public/images/products' + req.file.filename) && unlinkSync('./public/images/products' + req.file.filename)
       }
 
       

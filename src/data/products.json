@@ -10,12 +10,8 @@
       "description": "lorem ipsum dolor",
       "image": "detalleProducto_1.jpg",
       "image2": "detalleProducto_2.webp",
-      "image3": "detalleProducto_3.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
+      "image3": "detalleProducto_3.jpg"
+ 
    },
    {
       "id": 2,
@@ -26,12 +22,8 @@
       "estado": "destacado",
       "discount": 10,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-1.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
+      "image": "product-1.jpg"
+      
    },
    {
       "id": 3,
@@ -42,12 +34,9 @@
       "estado": "destacado",
       "discount": 15,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-2.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
+      "image": "product-2.jpg"
+     
+      
    },
    {
       "id": 6,
@@ -58,12 +47,8 @@
       "estado": "destacado",
       "discount": 15,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
-      "image": "product-5.jpg",
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
+      "image": "product-5.jpg"
+  
    },
    {
       "id": "929e5949-d7bc-4d54-ab19-79002064d122",
@@ -86,14 +71,25 @@
       "createdAt": "2023-09-14T22:16:32.085Z"
    },
    {
-      "id": "6966706b-f3f7-4747-ad49-bbc898faff3c",
-      "name": "telefono coso",
-      "brand": "amd",
-      "price": 123123,
+      "id": "0f479cc5-193d-4292-bced-7f3180a47968",
+      "name": "NOTEBOOK ASUS X515EA I3 1115G4 8GB SSD 256GB 15.6 FHD FREE",
+      "brand": "asus",
+      "price": 399990,
       "discount": 10,
-      "description": "plasodasdbyreakpoksdapisgudasgbdasoih'´pasd",
+      "description": "La pantalla NanoEdge ofrece una experiencia visual inmersiva para trabajar y jugar. Su panel HD ofrece ángulos de visión amplios y tiene un revestimiento antirreflejos que reduce distracciones y reflejos para que puedas concentrarte en lo que tienes delante",
       "estado": "destacado",
-      "image": "1694730501316_products_.png",
-      "createdAt": "2023-09-14T22:28:21.759Z"
+      "image": "1694741630783_products_.jpg",
+      "createdAt": "2023-09-15T01:33:51.375Z"
+   },
+   {
+      "id": "b9b3a1cb-5d79-4b74-b1e1-c7d33214c730",
+      "name": "DISCO SOLIDO SSD GIGABYTE 256GB M2 NVME AORUS RGB",
+      "brand": "ASORUS",
+      "price": 42999,
+      "discount": 0,
+      "description": "-Factor de forma: M.2 2280\r\n-Interfaz: PCI-Express 3.0 x4, NVMe 1.3\r\n-Capacidad total: 256 GB\r\n-Velocidad de lectura secuencial: hasta 3100 MB/s\r\n-Velocidad de escritura secuencial: hasta 1050 MB/s",
+      "estado": "destacado",
+      "image": "1694741759364_products_.jpg",
+      "createdAt": "2023-09-15T01:35:59.379Z"
    }
 ]
