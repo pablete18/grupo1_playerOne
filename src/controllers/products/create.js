@@ -10,6 +10,7 @@ module.exports = (req, res) => {
     if(errors.isEmpty()){
 
       const products = readJSON("products.json");
+      
       const data = {
         ...req.body,
         image : req.file ? req.file.filename : null
@@ -30,10 +31,8 @@ module.exports = (req, res) => {
 
       
 
-      return res.render("productAdd", {
-        brands: brands.sort((a, b) =>
-          a.name > b.name ? 1 : a.name < b.name ? -1 : 0
-        ),
+     return res.render("productAdd", {
+     
         errors : errors.mapped(),
         old : req.body
       });

@@ -1,11 +1,11 @@
 const { readJSON } = require("../../data");
 
 module.exports = (req, res) => {
-    const brands = readJSON("brands.json");
+ 
+  const products = readJSON('products.json')
 
     return res.render("productAdd", {
-      brands: brands.sort((a, b) =>
-        a.name > b.name ? 1 : a.name < b.name ? -1 : 0
-      ),
+      products
+
     });
   }

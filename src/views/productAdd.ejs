@@ -21,6 +21,10 @@
                     <small class="ms-2 text-danger"><%= locals.errors && (errors.name && errors.name.msg) %></small>
                   </div>
                   <div class="col-12 col-md-6 mb-3">
+                    <label for="price" class="form-label">Marca</label>
+                    <input type="text" class="form-control" id="brand" name="brand">                  
+                  </div>
+                  <div class="col-12 col-md-6 mb-3">
                     <label for="price" class="form-label">Precio</label>
                     <input type="number" class="form-control" id="price" name="price">
                     <!-- Mensaje de error para el precio si es necesario -->
@@ -30,7 +34,15 @@
                     <label for="discount" class="form-label">Descuento</label>
                     <input type="number" class="form-control" id="discount" name="discount">
                   </div>
-                  <div class="col-12 mb-3">
+                  <div class="col-12 col-md-6 mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Estado</label>
+                    <select class="form-select" aria-label="Default select example" name="estado" id="estado">
+                      <option value="in-sale">En oferta</option>
+                      <option value="destacado" >Destacado</option>
+                      
+                      </select>
+                  </div>
+                    <div class="col-12 mb-3"></div>
                     <label for="description" class="form-label">Descripción</label>
                     <textarea class="form-control" style="resize: none;" name="description" id="description"></textarea>
                     <!-- Mensaje de error para la descripción si es necesario -->

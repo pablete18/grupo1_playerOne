@@ -8,7 +8,7 @@ const router = express.Router();
 /* /products */
 
 router
-    .get('/detail/:id', detail)
+    .get('/productDetail/:id', detail)
     .get('/carritocompras', carrito)
     .get('/add', add)
     .post('/add', upload.single('image'), productAddValidator, create)

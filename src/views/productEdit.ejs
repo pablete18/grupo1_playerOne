@@ -27,6 +27,10 @@
                                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre del producto" name="name" value="<%= product.name %>">
                               </div>
                               <div class="col-12 col-md-6 mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Marca</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" name="brand" value="<%= product.brand %>">
+                              </div>
+                              <div class="col-12 col-md-6 mb-3">
                                 <label for="formGroupExampleInput2" class="form-label">Estado</label>
                                 <select class="form-select" aria-label="Default select example" name="estado">
                                   <option <%= product.estado === 'in-sale' && 'selected' %>value="in-sale">En oferta</option>

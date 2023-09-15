@@ -4,7 +4,7 @@ const { readJSON, writeJSON } = require("../../data");
 module.exports = (req, res) => {
   const products = readJSON("products.json");
   const id = req.params.id;
-  const { name, brand, description, price, discount } = req.body;
+  const { name, brand, description, price, discount,} = req.body;
 
   const productsModify = products.map((product) => {
     if (product.id === id) {

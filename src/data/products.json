@@ -50,18 +50,6 @@
       }
    },
    {
-      "id": 4,
-      "brand": "Samsung",
-      "price": null,
-      "discount": null,
-      "image": null,
-      "specifications": {
-         "consumption": "lorem ipsum dolor",
-         "Resolution": "lorem ipsum dolor",
-         "accessories": "lorem ipsum dolor"
-      }
-   },
-   {
       "id": 6,
       "name": "GABINETE YOROI GC-03HE 6 COOLERS RGB",
       "brand": "XFX",
@@ -76,5 +64,36 @@
          "Resolution": "lorem ipsum dolor",
          "accessories": "lorem ipsum dolor"
       }
+   },
+   {
+      "id": "929e5949-d7bc-4d54-ab19-79002064d122",
+      "name": "asdasd",
+      "brand": "asdasdads",
+      "price": 123123,
+      "discount": 12,
+      "description": "asdasasdadsolknmpudighauihfdig",
+      "image": "1694663639532_products_.png",
+      "createdAt": "2023-09-14T03:53:59.745Z"
+   },
+   {
+      "id": "f801545e-8181-4e57-b104-33b21ab7f039",
+      "name": "Placa de video",
+      "brand": "amd",
+      "price": 123123,
+      "discount": 10,
+      "description": "alta placa de video no sabes lo que anda",
+      "image": "1694729791984_products_.png",
+      "createdAt": "2023-09-14T22:16:32.085Z"
+   },
+   {
+      "id": "6966706b-f3f7-4747-ad49-bbc898faff3c",
+      "name": "telefono coso",
+      "brand": "amd",
+      "price": 123123,
+      "discount": 10,
+      "description": "plasodasdbyreakpoksdapisgudasgbdasoih'´pasd",
+      "estado": "destacado",
+      "image": "1694730501316_products_.png",
+      "createdAt": "2023-09-14T22:28:21.759Z"
    }
 ]
