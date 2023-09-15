@@ -1,6 +1,6 @@
 [
    {
-      "id": 1,
+      "id": "929e5949-d7bc-4d54-ab19-33002064d122",
       "name": "Monitor Led VA Curvo",
       "brand": "Samsung",
       "category": "Monitores",
@@ -11,10 +11,9 @@
       "image": "detalleProducto_1.jpg",
       "image2": "detalleProducto_2.webp",
       "image3": "detalleProducto_3.jpg"
- 
    },
    {
-      "id": 2,
+      "id": "929e5949-d7bc-4d54-ab19-79003064d122",
       "name": "NOTEBOOK 15.6 V15 RYZEN 5 5500U 8GB 256GB",
       "brand": "LENOVO",
       "category": "notebooks",
@@ -23,10 +22,9 @@
       "discount": 10,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
       "image": "product-1.jpg"
-      
    },
    {
-      "id": 3,
+      "id": "929e5949-d7bc-4d54-ab19-79002064d342",
       "name": "HD SSD 1TB P400 LITE M.2 NVME GEN4 3500MB/S 2280",
       "brand": "PATRIOT",
       "category": "almacenamiento",
@@ -35,11 +33,9 @@
       "discount": 15,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
       "image": "product-2.jpg"
-     
-      
    },
    {
-      "id": 6,
+      "id": "929e5949-d7bc-4d54-ab19-79002064d445",
       "name": "GABINETE YOROI GC-03HE 6 COOLERS RGB",
       "brand": "XFX",
       "category": "gabinetes",
@@ -48,7 +44,6 @@
       "discount": 15,
       "description": "Discover a true immersive experience with the Samsung curved monitor",
       "image": "product-5.jpg"
-  
    },
    {
       "id": "929e5949-d7bc-4d54-ab19-79002064d122",
@@ -91,5 +86,16 @@
       "estado": "destacado",
       "image": "1694741759364_products_.jpg",
       "createdAt": "2023-09-15T01:35:59.379Z"
+   },
+   {
+      "id": "e13edfda-a163-4f02-9989-2768c0239429",
+      "name": "MOUSE GAMER HYPERX PULSEFIRE CORE RGB",
+      "brand": "HYPERX",
+      "price": 24990,
+      "discount": 10,
+      "description": "HyperX Pulsefire Core ™ ofrece lo esencial para los jugadores que buscan un ratón para juegos RGB sólido, cómodo y con cable. El sensor óptico Pixart 3327 brinda a los jugadores un seguimiento preciso y suave sin aceleración de hardware, y tiene configuraciones de DPI nativas de hasta 6200 DPI. El Pulsefire Core, de diseño ergonómico, tiene agarres laterales texturizados para un agarre cómodo y antideslizante, y su forma simétrica es adecuada para agarre tanto en la palma como en la garra.",
+      "estado": "destacado",
+      "image": "1694809887247_products_.jpg",
+      "createdAt": "2023-09-15T20:31:27.361Z"
    }
 ]
